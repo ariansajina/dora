@@ -1,0 +1,17 @@
+{%- comment -%}
+  Grey image box with caption, or a real image when `src` is set.
+  Params: ratio ("4 / 3"), caption, tone (1 or 2), src, alt, class, style.
+{%- endcomment -%}
+{%- assign tone = include.tone | default: 1 -%}
+{%- if include.src -%}
+<figure class="img {{ include.class }}"{% if include.style %} style="{{ include.style }}"{% endif %}>
+  <img src="{{ include.src | relative_url }}" alt="{{ include.alt | default: include.caption | escape }}" loading="lazy">
+  {%- if include.caption %}
+  <figcaption>{{ include.caption }}</figcaption>
+  {%- endif %}
+</figure>
+{%- else -%}
+<figure class="ph ph-{{ tone }} {{ include.class }}" style="aspect-ratio: {{ include.ratio | default: '4 / 3' }};{% if include.style %} {{ include.style }}{% endif %}">
+  <figcaption>{{ include.caption }}</figcaption>
+</figure>
+{%- endif -%}

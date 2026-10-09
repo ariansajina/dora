@@ -1,0 +1,36 @@
+---
+layout: default
+title: Works
+permalink: /works/
+footer_offset: 4%
+footer_gap: 160
+---
+<h1 class="label off x61 mt-120">works (her own)</h1>
+<div class="own off x9 mt-38" style="max-width: 980px">
+  {%- for w in site.data.works.own %}
+  {%- if w.page %}{% capture href %}{{ '/works/' | append: w.page | append: '/' | relative_url }}{% endcapture %}{% else %}{% assign href = '#' %}{% endif %}
+  <a class="own-row{% unless w.page %} no-page{% endunless %}" href="{{ href }}">
+    <span class="year">{{ w.year | default: '[YEAR]' }}</span>
+    <span class="title{% if w.spaced %} spaced{% endif %}">{{ w.title }}</span>
+    <span class="kind">{{ w.kind }}</span>
+  </a>
+  {%- endfor %}
+</div>
+
+<h2 class="label off x23 mt-210">performing (for others)</h2>
+<div class="perf off x23 mt-30" style="max-width: 820px">
+  {%- for w in site.data.works.performing %}
+  <div class="perf-row">
+    <span class="year">{{ w.year | default: '[YEAR]' }}</span>
+    <span class="title">{{ w.title }}</span>
+    <span class="by">{{ w.by }}</span>
+  </div>
+  {%- endfor %}
+</div>
+
+<h2 class="label off x71 mt-180">curating / teaching</h2>
+<ul class="curating off x71 mt-22" style="max-width: 300px">
+  {%- for c in site.data.works.curating %}
+  <li>{{ c.year | default: '[YEAR]' }} · {{ c.text }}</li>
+  {%- endfor %}
+</ul>

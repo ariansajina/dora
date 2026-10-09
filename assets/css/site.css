@@ -1,0 +1,342 @@
+/* Dora Brkarić — site styles. No theme, no JavaScript. */
+
+:root {
+  --ground: #EEEEEA;
+  --ink: #141414;
+  --muted: #5E5E5A;
+  --soft: #3D3D3A;
+  --accent: #C3311B;
+  --hover: #141414;
+  --ph-1: #C9C9C2;
+  --ph-2: #B8B8B0;
+  --rule-dotted: #8A8A84;
+
+  --sans: "Hanken Grotesk", sans-serif;
+  --mono: "IBM Plex Mono", monospace;
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  background: var(--ground);
+  color: var(--ink);
+}
+
+body {
+  font-family: var(--sans);
+  font-weight: 300;
+  -webkit-text-size-adjust: 100%;
+}
+
+h1, h2, h3, p, ul, ol, dl, dd, figure { margin: 0; padding: 0; }
+h1, h2, h3, strong, b { font-weight: 300; }
+ul { list-style: none; }
+img { display: block; max-width: 100%; height: auto; }
+
+a { color: var(--accent); }
+a:hover { color: var(--hover); }
+
+.vh {
+  position: absolute; width: 1px; height: 1px; overflow: hidden;
+  clip: rect(0 0 0 0); clip-path: inset(50%); white-space: nowrap;
+}
+
+/* ---- offsets: the only allowed left pushes ---- */
+.x4  { margin-left: 4%; }
+.x9  { margin-left: 9%; }
+.x23 { margin-left: 23%; }
+.x31 { margin-left: 31%; }
+.x58 { margin-left: 58%; }
+.x61 { margin-left: 61%; }
+.x71 { margin-left: 71%; }
+
+/* ---- vertical gaps ---- */
+.mt-22  { margin-top: 22px; }
+.mt-30  { margin-top: 30px; }
+.mt-34  { margin-top: 34px; }
+.mt-38  { margin-top: 38px; }
+.mt-90  { margin-top: 90px; }
+.mt-110 { margin-top: 110px; }
+.mt-120 { margin-top: 120px; }
+.mt-140 { margin-top: 140px; }
+.mt-160 { margin-top: 160px; }
+.mt-180 { margin-top: 180px; }
+.mt-200 { margin-top: 200px; }
+.mt-210 { margin-top: 210px; }
+
+/* ---- page shell ---- */
+.page {
+  padding: 22px 18px 80px 26px;
+  overflow-x: hidden;
+}
+
+.site-header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 12px 26px;
+  font-family: var(--mono);
+  font-size: 13px;
+}
+.site-header .home { color: var(--ink); text-decoration: none; }
+.site-header .home:hover { color: var(--accent); }
+.nav { display: flex; flex-wrap: wrap; gap: 22px; margin-left: 58%; }
+.nav a.current { color: var(--ink); text-decoration: none; }
+
+.site-footer {
+  display: block;
+  font-family: var(--mono);
+  font-size: 11px;
+  color: var(--muted);
+}
+
+/* ---- shared mono bits ---- */
+.label {
+  font-family: var(--mono);
+  font-size: 13px;
+  letter-spacing: 0.04em;
+  color: var(--ink);
+}
+.sublabel {
+  font-family: var(--mono);
+  font-size: 12px;
+  color: var(--muted);
+  margin-bottom: 10px;
+}
+
+/* ---- placeholder / image ---- */
+.ph {
+  position: relative;
+  width: 100%;
+  background: var(--ph-1);
+}
+.ph-2 { background: var(--ph-2); }
+.ph figcaption,
+.img figcaption {
+  font-family: var(--mono);
+  font-size: 11px;
+  line-height: 1.5;
+  color: var(--soft);
+}
+.ph figcaption {
+  position: absolute;
+  left: 0; right: 0; bottom: 0;
+  padding: 10px;
+}
+.img figcaption { padding-top: 10px; }
+
+/* ================= landing ================= */
+.landing {
+  position: relative;
+  height: 100vh;
+  height: 100dvh;
+  min-height: 520px;
+  overflow: hidden;
+  background: var(--ground);
+}
+.landing > * { position: absolute; margin: 0; }
+
+.landing .tagline {
+  top: 22px; right: 18px;
+  text-align: right;
+  font-family: var(--mono);
+  font-size: 11px;
+  line-height: 1.5;
+  color: var(--muted);
+}
+.landing .name {
+  top: 9%; left: 6%; right: 0;
+  font-size: clamp(76px, 17vw, 250px);
+  line-height: 0.84;
+  letter-spacing: -0.02em;
+}
+.landing .name span { display: block; }
+.landing .name span + span { margin-left: 19%; }
+
+.landing a {
+  font-family: var(--mono);
+  padding: 12px 4px;
+  line-height: 1.2;
+  white-space: nowrap;
+}
+.landing .l-works   { top: 56%; left: 58%; font-size: clamp(30px, 4.4vw, 56px); }
+.landing .l-about   { top: 67%; left: 24%; font-size: clamp(21px, 2.6vw, 34px); }
+.landing .l-contact { bottom: 9%; left: 66%; font-size: clamp(17px, 1.8vw, 24px); }
+.landing .l-vimeo   { bottom: 4%; left: 6%; font-size: 11px; color: var(--muted); padding: 16px 4px; }
+.landing .l-vimeo:hover { color: var(--hover); }
+
+/* ================= works index ================= */
+.own-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 4px 28px;
+  padding: 14px 0 16px;
+  border-top: 1px solid var(--ink);
+  color: var(--ink);
+  text-decoration: none;
+}
+.own-row .year {
+  flex: 0 0 96px;
+  font-family: var(--mono);
+  font-size: 13px;
+  color: var(--muted);
+}
+.own-row .title {
+  flex: 1 1 380px;
+  min-width: 0;
+  font-size: clamp(26px, 3.6vw, 46px);
+  line-height: 1.05;
+  overflow-wrap: anywhere;
+}
+.own-row .title.spaced { letter-spacing: 0.22em; overflow-wrap: normal; }
+.own-row .kind {
+  flex: 0 1 230px;
+  font-family: var(--mono);
+  font-size: 12px;
+  color: var(--muted);
+}
+.own-row:hover { color: var(--ink); }
+.own-row:hover .title { color: var(--accent); }
+
+.perf-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 2px 24px;
+  padding: 9px 0;
+  border-top: 1px dotted var(--rule-dotted);
+  font-family: var(--mono);
+  font-size: 13px;
+  line-height: 1.5;
+}
+.perf-row .year { flex: 0 0 48px; color: var(--muted); }
+.perf-row .title {
+  flex: 1 1 260px;
+  font-family: var(--sans);
+  font-style: italic;
+  font-size: 18px;
+}
+.perf-row .by { flex: 1 1 300px; color: var(--soft); }
+
+.curating {
+  font-family: var(--mono);
+  font-size: 12px;
+  line-height: 1.7;
+}
+
+/* ================= project page ================= */
+.back {
+  display: inline-block;
+  font-family: var(--mono);
+  font-size: 12px;
+}
+.work-title {
+  font-size: clamp(44px, 10.6vw, 152px);
+  letter-spacing: 0.34em;
+  word-spacing: -0.25em; /* spaced titles: the gaps come from tracking, so each line fits beside the 31% indent */
+  line-height: 0.9;
+  overflow-wrap: anywhere;
+}
+.work-title span { display: block; margin-right: -0.34em; } /* trailing letter-spacing shouldn't force a wrap */
+.work-title .indent { margin-left: 31%; }
+
+.meta {
+  font-family: var(--mono);
+  font-size: 12px;
+  line-height: 1.7;
+  color: var(--soft);
+}
+.meta .award { color: var(--accent); }
+
+.images {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 40px 4%;
+}
+.images .img-a { flex: 0 1 58%; min-width: 180px; }
+.images .img-b { flex: 0 1 22%; min-width: 180px; margin-top: 260px; }
+
+.lead {
+  font-size: clamp(20px, 2.2vw, 28px);
+  line-height: 1.35;
+}
+
+.credits-shown {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 60px 7%;
+  font-family: var(--mono);
+  font-size: 12px;
+  line-height: 1.7;
+}
+.credits { flex: 0 1 300px; }
+.credits .supported { color: var(--muted); margin-top: 14px; }
+.shown { flex: 1 1 420px; max-width: 560px; min-width: 0; }
+.shown li {
+  display: flex;
+  gap: 0 16px;
+  padding: 6px 0;
+  border-top: 1px dotted var(--rule-dotted);
+}
+.shown .date { flex: 0 0 96px; color: var(--muted); }
+.shown .venue { flex: 1 1 0; min-width: 0; }
+
+.ext-links {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 6px;
+  font-family: var(--mono);
+  font-size: 12px;
+}
+
+.next {
+  font-family: var(--mono);
+  font-size: 12px;
+}
+
+/* ================= about ================= */
+.about-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 40px 6%;
+}
+.about-row .portrait { flex: 0 0 170px; }
+.about-row .portrait figcaption { font-size: 10px; }
+.bio {
+  flex: 1 1 420px;
+  max-width: 600px;
+  min-width: 0;
+  margin-top: 180px;
+  font-size: clamp(18px, 1.7vw, 22px);
+  line-height: 1.45;
+}
+.bio p + p { margin-top: 22px; }
+
+.facts {
+  max-width: 380px;
+  display: grid;
+  grid-template-columns: 96px minmax(0, 1fr);
+  gap: 10px 16px;
+  font-family: var(--mono);
+  font-size: 12px;
+  line-height: 1.6;
+}
+.facts dt { color: var(--muted); }
+
+.elsewhere { font-family: var(--mono); font-size: 13px; }
+.elsewhere .sublabel { font-size: 13px; }
+.elsewhere ul { display: flex; flex-direction: column; align-items: flex-start; gap: 6px; }
+
+/* ================= phones ================= */
+@media (max-width: 720px) {
+  .off { margin-left: 0 !important; width: auto !important; max-width: 100% !important; }
+  .nav { margin-left: 0 !important; }
+  .images .img-b { margin-top: 70px; margin-left: 38%; }
+  .bio { margin-top: 0; }
+  .work-title .indent { margin-left: 23%; } /* 31% would orphan the last letter at 360–420px */
+}

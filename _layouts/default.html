@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en">
+{% include head.html %}
+<body>
+<div class="page">
+{% include header.html %}
+<main>
+{{ content }}
+</main>
+{% unless layout.own_footer %}
+{% assign footer_offset = page.footer_offset | default: layout.footer_offset | default: "4%" %}
+{% assign footer_gap = page.footer_gap | default: layout.footer_gap | default: 160 %}
+{% include footer.html offset=footer_offset gap=footer_gap %}
+{% endunless %}
+</div>
+</body>
+</html>

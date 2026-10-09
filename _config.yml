@@ -1,0 +1,18 @@
+title: Dora Brkarić
+description: Dance artist and choreographer. Pula, 1996.
+url: ""            # set to https://<user>.github.io or the custom domain
+baseurl: ""        # "/<repo>" if served from a project page
+lang: en
+theme: null       # no Minima/Primer styling or layouts
+markdown: kramdown
+permalink: pretty
+contact_email: "[CONTACT EMAIL]"
+vimeo: https://vimeo.com/user95667145
+collections:
+  works:
+    output: true
+    permalink: /works/:name/
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+exclude: [Gemfile, Gemfile.lock, README.md, vendor]

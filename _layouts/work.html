@@ -1,0 +1,90 @@
+---
+layout: default
+own_footer: true
+---
+<a class="back off x9 mt-90" href="{{ '/works/' | relative_url }}">← all works</a>
+
+<h1 class="work-title mt-30">
+  {%- if page.title_lines -%}
+    {%- for line in page.title_lines -%}
+      {%- if forloop.first -%}<span>{{ line }}</span>{%- else -%}<span class="indent">{{ line }}</span>{%- endif -%}
+    {%- endfor -%}
+  {%- else -%}
+    {{ page.title }}
+  {%- endif -%}
+</h1>
+
+{% if page.meta or page.award %}
+<div class="meta off x61 mt-34" style="max-width: 360px">
+  {%- for m in page.meta %}
+  <p>{{ m }}</p>
+  {%- endfor %}
+  {%- if page.award %}
+  <p class="award">{{ page.award }}</p>
+  {%- endif %}
+</div>
+{% endif %}
+
+{% if page.images and page.images.size > 0 %}
+<div class="images mt-120">
+  {%- for img in page.images %}
+  {%- assign n = forloop.index | modulo: 2 -%}
+  {%- if n == 1 %}{% assign cls = 'img-a' %}{% assign ratio = img.ratio | default: '4 / 3' %}{% assign tone = img.tone | default: 1 %}{% else %}{% assign cls = 'img-b' %}{% assign ratio = img.ratio | default: '3 / 4' %}{% assign tone = img.tone | default: 2 %}{% endif %}
+  {% include placeholder.html src=img.src ratio=ratio tone=tone caption=img.caption alt=img.alt class=cls %}
+  {%- endfor %}
+</div>
+{% endif %}
+
+{% if page.lead %}
+<p class="lead off x23 mt-140" style="max-width: 560px">{{ page.lead }}</p>
+{% endif %}
+
+{% if page.credits or page.supported or page.shown %}
+<div class="credits-shown off x4 mt-200">
+  {% if page.credits or page.supported %}
+  <section class="credits">
+    <h2 class="sublabel">credits</h2>
+    {%- for c in page.credits %}
+    <p>{{ c.name }}{% if c.role and c.role != "" %} — {{ c.role }}{% endif %}</p>
+    {%- endfor %}
+    {%- if page.supported %}
+    <p class="supported">{{ page.supported }}</p>
+    {%- endif %}
+  </section>
+  {% endif %}
+  {% if page.shown %}
+  <section class="shown">
+    <h2 class="sublabel">shown</h2>
+    <ul>
+      {%- for s in page.shown %}
+      <li><span class="date">{{ s.date }}</span><span class="venue">{{ s.venue }}</span></li>
+      {%- endfor %}
+    </ul>
+  </section>
+  {% endif %}
+</div>
+{% endif %}
+
+{% if page.links and page.links.size > 0 %}
+<ul class="ext-links off x71 mt-160">
+  {%- for l in page.links %}
+  <li><a href="{{ l.url }}">{{ l.label }} ↗</a></li>
+  {%- endfor %}
+</ul>
+{% endif %}
+
+{%- comment -%} next project page, in _data/works.yml order {%- endcomment -%}
+{%- assign paged = site.data.works.own | where_exp: "w", "w.page" -%}
+{%- assign next = nil -%}
+{%- for w in paged -%}
+  {%- if w.page == page.slug -%}
+    {%- assign i = forloop.index0 | plus: 1 | modulo: paged.size -%}
+    {%- assign next = paged[i] -%}
+  {%- endif -%}
+{%- endfor %}
+{% if next and next.page != page.slug %}
+<p class="next off x4 mt-120"><a href="{{ '/works/' | append: next.page | append: '/' | relative_url }}">next → {{ next.title }}</a></p>
+{% include footer.html offset="4%" gap=40 %}
+{% else %}
+{% include footer.html offset="4%" gap=120 %}
+{% endif %}

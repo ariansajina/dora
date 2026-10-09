@@ -1,0 +1,26 @@
+own:
+  - { year: "2019–", sort: 2023, title: "S T R I P T E A S E", spaced: true, kind: "duet with Iva Katarinčić · award 2024", page: striptease }
+  - { year: "2024", sort: 2024, title: "Meanwhile, in the Glossy Interface", kind: "group exhibition · Galerija Novo, Pula" }
+  - { year: "2021", sort: 2021, title: "an_hum_an", kind: "experimental film · 5′" }
+  - { year: "2020", sort: 2020, title: "Striptease (film)", kind: "short film · 6′" }
+  - { year: "2019", sort: 2019.5, title: "Life is GREJP", kind: "audio-visual performance" }
+  - { year: "2019", sort: 2019, title: "HOTDOG", kind: "experimental film" }
+  - { year: null, sort: 0, title: "S A L T", spaced: true, kind: "dance piece" }
+  - { year: null, sort: 0, title: "Which Football Team Won a Basketball Competition", kind: "dance piece" }
+  - { year: null, sort: 0, title: "Magician Stefano", kind: "solo · Monoplay" }
+
+performing:
+  - { year: "2025", title: "Petricore", by: "Igor x Moreno / Zagrebački plesni ansambl" }
+  - { year: "2024", title: "Never Again", by: "Matea Bilosnić / ZPA & ZKM" }
+  - { year: "2024", title: "Selfiemorphia", by: "Marin Lemić / ON/A & ZPC" }
+  - { year: "2023", title: "AGENDA", by: "Simone Aughterlony & Saša Božić / de facto" }
+  - { year: "2023", title: "Imagining Gardens", by: "Jelsa Art Biennial, Hvar" }
+  - { year: "2022", title: "STD – Spending Time Dancing", by: "Matej Kejžar / Pekinpah" }
+  - { year: "2021", title: "Glitch", by: "Flavia Pinheiro / ICK Amsterdam" }
+  - { year: "2020", title: "Found Choreography", by: "collective / Antisezona" }
+
+curating:
+  - { year: "2025", text: "Improspekcije 19, “PoslijeSvijet”, artistic-curatorial team" }
+  - { year: "2024", text: "Improspekcije “&ruže”, programming & production" }
+  - { year: "2023", text: "“Pipci, pokrovi, zasloni, ljubavi”, workshop with Elena Apostolovski, MSU Zagreb" }
+  - { year: "—", text: "“Echo / Jeka”, training at ZPC" }
