@@ -30,12 +30,13 @@ shown:
   - { date: "02.06.2024", venue: "Pogon Jedinstvo, Zagreb" }
   - { date: "22.05.2024", venue: "Vox Feminae, Galerija Miroslav Kraljević, Zagreb (adapted)" }
   - { date: "31.01.2024", venue: "Istrian National Theatre, Pula, small stage" }
-  - { date: "23.09.2023", venue: "Improspekcije / Antisezona, MSU Zagreb" }
+  - { date: "23.09.2023", venue: "Improspekcije / Antisezona, MSU Gorgona, Zagreb" }
   - { date: "08.09.2023", venue: "Dom hrvatskih branitelja, Pula" }
   - { date: "2022", venue: "KNAP, Zagreb — second phase" }
   - { date: "2019–20", venue: "solo video, Marsovo polje, Pula" }
 links:
   - { label: "antisezona", url: "https://antisezona.space/en/performances/s-t-r-i-p-t-e-a-s-e/" }
+  - { label: "improspekcije 2023", url: "https://improspekcije.com/improspekcije2023/" }
   - { label: "vox feminae", url: "https://voxfeminae.net/festival/vff-2024/s-t-r-i-p-t-e-a-s-e/" }
   - { label: "glas istre (2023)", url: "https://www.glasistre.hr/kazaliste/2023/09/04/u-domu-hrvatskih-branitelja-pulska-umjetnica-dora-brkaric-predstavit-ce-autorsku-plesnu-izvedbu-882374" }
   - { label: "metamedij", url: "https://metamedia.hr/novomedijski-kultivator-radionica-instant-kompozicije-s-dorom-brkaric/" }
