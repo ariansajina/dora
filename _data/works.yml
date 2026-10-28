@@ -3,9 +3,9 @@ own:
   - { year: "2026", sort: 2026, title: "Padian Rota", kind: "with Anja Mergeduš · process showing", page: padian-rota }
   - { year: "2024", sort: 2024, title: "Meanwhile, in the Glossy Interface", kind: "group exhibition · Galerija Novo, Pula", page: meanwhile }
   - { year: "2021", sort: 2021, title: "an_hum_an", kind: "experimental film · 5′", page: an-hum-an }
-  - { year: "2021", sort: 2021, title: "S A L T", spaced: true, kind: "dance-music performance · SNDO Amsterdam", page: salt }
+  - { year: "2021", sort: 2021.5, title: "S A L T", spaced: true, kind: "dance-music performance · SNDO Amsterdam", page: salt }
   - { year: "2020", sort: 2020, title: "Striptease (film)", kind: "short film · 6′", page: striptease-film }
-  - { year: "2018–20", sort: 2020, title: "Life is GREJP", kind: "audio-visual installation / performance", page: life-is-grejp }
+  - { year: "2018–20", sort: 2018, title: "Life is GREJP", kind: "audio-visual installation / performance", page: life-is-grejp }
 
 performing:
   - { year: "2021–26", title: "The ruin is a tail", by: "Sancha Meca Castro / Teatro Municipal do Porto & Instável", url: "https://www.teatromunicipaldoporto.pt/en/programa/sancha-meca-castro-the-ruin-is-a-tail/", trailer: "https://vimeo.com/1199728317" }

@@ -79,17 +79,25 @@ own_footer: true
 </ul>
 {% endif %}
 
-{%- comment -%} next project page, in _data/works.yml order {%- endcomment -%}
-{%- assign paged = site.data.works.own | where_exp: "w", "w.page" -%}
+{%- comment -%} previous = older, next = newer: project pages ordered by `sort` in _data/works.yml {%- endcomment -%}
+{%- assign paged = site.data.works.own | where_exp: "w", "w.page" | sort: "sort" -%}
+{%- assign prev = nil -%}
 {%- assign next = nil -%}
 {%- for w in paged -%}
   {%- if w.page == page.slug -%}
-    {%- assign i = forloop.index0 | plus: 1 | modulo: paged.size -%}
-    {%- assign next = paged[i] -%}
+    {%- unless forloop.first -%}{%- assign i = forloop.index0 | minus: 1 -%}{%- assign prev = paged[i] -%}{%- endunless -%}
+    {%- unless forloop.last -%}{%- assign i = forloop.index0 | plus: 1 -%}{%- assign next = paged[i] -%}{%- endunless -%}
   {%- endif -%}
 {%- endfor %}
-{% if next and next.page != page.slug %}
-<p class="next off x4 mt-120"><a href="{{ '/works/' | append: next.page | append: '/' | relative_url }}">next → {{ next.title }}</a></p>
+{% if prev or next %}
+<nav class="pager off x4 mt-120" aria-label="other works">
+  {%- if prev %}
+  <a href="{{ '/works/' | append: prev.page | append: '/' | relative_url }}">← previous: {{ prev.title }}</a>
+  {%- endif %}
+  {%- if next %}
+  <a href="{{ '/works/' | append: next.page | append: '/' | relative_url }}">next → {{ next.title }}</a>
+  {%- endif %}
+</nav>
 {% include footer.html offset="4%" gap=40 %}
 {% else %}
 {% include footer.html offset="4%" gap=120 %}
