@@ -1,13 +1,13 @@
 own:
   - { year: "2019–", sort: 2023, title: "S T R I P T E A S E", spaced: true, kind: "duet with Iva Katarinčić · award 2024", page: striptease }
-  - { year: "2024", sort: 2024, title: "Meanwhile, in the Glossy Interface", kind: "group exhibition · Galerija Novo, Pula" }
-  - { year: "2021", sort: 2021, title: "an_hum_an", kind: "experimental film · 5′" }
-  - { year: "2020", sort: 2020, title: "Striptease (film)", kind: "short film · 6′" }
-  - { year: "2019", sort: 2019.5, title: "Life is GREJP", kind: "audio-visual performance" }
-  - { year: "2019", sort: 2019, title: "HOTDOG", kind: "experimental film" }
-  - { year: null, sort: 0, title: "S A L T", spaced: true, kind: "dance piece" }
-  - { year: null, sort: 0, title: "Which Football Team Won a Basketball Competition", kind: "dance piece" }
-  - { year: null, sort: 0, title: "Magician Stefano", kind: "solo · Monoplay" }
+  - { year: "2024", sort: 2024, title: "Meanwhile, in the Glossy Interface", kind: "group exhibition · Galerija Novo, Pula", page: meanwhile }
+  - { year: "2021", sort: 2021, title: "an_hum_an", kind: "experimental film · 5′", page: an-hum-an }
+  - { year: "2021", sort: 2021, title: "S A L T", spaced: true, kind: "dance-music performance · SNDO Amsterdam", page: salt }
+  - { year: "2020", sort: 2020, title: "Striptease (film)", kind: "short film · 6′", page: striptease-film }
+  - { year: "2019", sort: 2019.5, title: "Life is GREJP", kind: "audio-visual performance", page: life-is-grejp }
+  - { year: "2019", sort: 2019, title: "HOTDOG", kind: "experimental film", page: hotdog }
+  - { year: null, sort: 0, title: "Which Football Team Won a Basketball Competition", kind: "dance piece", page: which-football-team }
+  - { year: null, sort: 0, title: "Magician Stefano", kind: "solo · Monoplay", page: magician-stefano }
 
 performing:
   - { year: "2025", title: "Petricore", by: "Igor x Moreno / Zagrebački plesni ansambl" }

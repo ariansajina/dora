@@ -2,6 +2,7 @@
 layout: work
 title: S T R I P T E A S E
 title_lines: ["S T R I P", "T E A S E"]
+spaced: true
 slug: striptease
 meta:
   - "2019– · solo video → staged duet (2023)"
@@ -9,8 +10,8 @@ meta:
   - "performance & choreography: Iva Katarinčić"
 award: "best performance overall, croatian contemporary dance awards for 2024"
 images:
-  - { src: null, ratio: "4 / 3", tone: 1, caption: "[photo: Pogon Jedinstvo, 2.6.2024 — © Vid Redža]" }
-  - { src: null, ratio: "3 / 4", tone: 2, caption: "[still: video, Marsovo polje, Pula]" }
+  - { src: /assets/img/striptease-1.jpg, alt: "Dora Brkarić and Iva Katarinčić on all fours on a warm-lit stage, faces close to the floor", caption: "photo © Vid Redža" }
+  - { src: /assets/img/striptease-2.jpg, alt: "Two performers in the dark on straw, one lighting the other with a phone torch", caption: "Vox Feminae, Galerija Miroslav Kraljević, 2024 — photo © [photographer]" }
 lead: >-
   Starting from their Istrian upbringing — its mythology, symbols and rituals —
   Brkarić and Katarinčić strip away layers of identity imposed on the female body.
@@ -36,5 +37,6 @@ shown:
 links:
   - { label: "antisezona", url: "https://antisezona.space/en/performances/s-t-r-i-p-t-e-a-s-e/" }
   - { label: "vox feminae", url: "https://voxfeminae.net/festival/vff-2024/s-t-r-i-p-t-e-a-s-e/" }
+  - { label: "solo video (vimeo)", url: "https://vimeo.com/502722251" }
   - { label: "award (upuh)", url: "https://upuh.hr/dodijeljene-nagrade-strukovnih-udruga-suvremenog-plesa-republike-hrvatske-za-2024-godinu/" }
 ---

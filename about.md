@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 footer_offset: 71%
 footer_gap: 140
-portrait: { src: null, caption: "[portrait — © photographer]" }
+portrait: { src: /assets/img/portrait-1.jpg, caption: "photo © [photographer]" }
 facts:
   - { k: born, v: "Pula, 1996" }
   - { k: studied, v: "ADU Zagreb · Uniarts Helsinki · SNDO Amsterdam · Blank film school" }

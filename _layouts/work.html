@@ -4,7 +4,7 @@ own_footer: true
 ---
 <a class="back off x9 mt-90" href="{{ '/works/' | relative_url }}">← all works</a>
 
-<h1 class="work-title mt-30">
+<h1 class="work-title{% if page.spaced %} spaced{% endif %} mt-30">
   {%- if page.title_lines -%}
     {%- for line in page.title_lines -%}
       {%- if forloop.first -%}<span>{{ line }}</span>{%- else -%}<span class="indent">{{ line }}</span>{%- endif -%}

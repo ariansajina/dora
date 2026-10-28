@@ -234,12 +234,19 @@ a:hover { color: var(--hover); }
 }
 .work-title {
   font-size: clamp(44px, 10.6vw, 152px);
-  letter-spacing: 0.34em;
-  word-spacing: -0.25em; /* spaced titles: the gaps come from tracking, so each line fits beside the 31% indent */
+  letter-spacing: -0.02em;
   line-height: 0.9;
+  overflow-wrap: break-word;
+}
+/* titles spelled with spaces (S T R I P T E A S E): wide tracking, and the gaps
+   come from it, so each line fits beside the 31% indent */
+.work-title.spaced {
+  letter-spacing: 0.34em;
+  word-spacing: -0.25em;
   overflow-wrap: anywhere;
 }
-.work-title span { display: block; margin-right: -0.34em; } /* trailing letter-spacing shouldn't force a wrap */
+.work-title span { display: block; }
+.work-title.spaced span { margin-right: -0.34em; } /* trailing letter-spacing shouldn't force a wrap */
 .work-title .indent { margin-left: 31%; }
 
 .meta {
