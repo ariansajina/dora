@@ -5,6 +5,5 @@
     {%- assign about_url = '/about/' -%}
     <a href="{{ works_url | relative_url }}"{% if page.url == works_url %} class="current" aria-current="page"{% endif %}>works{% if page.url == works_url %} ←{% endif %}</a>
     <a href="{{ about_url | relative_url }}"{% if page.url == about_url %} class="current" aria-current="page"{% endif %}>about{% if page.url == about_url %} ←{% endif %}</a>
-    <a href="mailto:{{ site.contact_email | uri_escape }}">contact</a>
   </nav>
 </header>

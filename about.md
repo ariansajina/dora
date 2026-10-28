@@ -18,7 +18,6 @@ elsewhere:
   - { label: "vimeo ↗", url: "https://vimeo.com/user95667145" }
   - { label: "zpa ↗", url: "https://www.zagrebackiplesniansambl.hr/hr/tim/dora-brkaric.html" }
   - { label: "kulturpunkt ↗", url: "https://kulturpunkt.hr/tag/dora_brkaric/" }
-  - { label: "[contact email]", url: "mailto:[CONTACT EMAIL]" }
 ---
 <h1 class="vh">About Dora Brkarić</h1>
 
@@ -45,11 +44,14 @@ As a performer she has worked with Matej Kejžar, Simone Aughterlony & Saša Bo�
   <h2 class="sublabel">elsewhere</h2>
   <ul>
   {%- for l in page.elsewhere %}
-    {%- if l.url contains 'mailto:' %}
-    <li><a href="mailto:{{ site.contact_email | uri_escape }}">{% if site.contact_email contains '[' %}{{ l.label }}{% else %}{{ site.contact_email }}{% endif %}</a></li>
-    {%- else %}
     <li><a href="{{ l.url }}">{{ l.label }}</a></li>
-    {%- endif %}
   {%- endfor %}
+  </ul>
+</section>
+
+<section class="elsewhere off x4 mt-40">
+  <h2 class="sublabel">contact</h2>
+  <ul>
+    <li><a href="mailto:{{ site.contact_email }}">email</a></li>
   </ul>
 </section>

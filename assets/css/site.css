@@ -56,6 +56,7 @@ a:hover { color: var(--hover); }
 .mt-30  { margin-top: 30px; }
 .mt-34  { margin-top: 34px; }
 .mt-38  { margin-top: 38px; }
+.mt-40  { margin-top: 40px; }
 .mt-90  { margin-top: 90px; }
 .mt-110 { margin-top: 110px; }
 .mt-120 { margin-top: 120px; }
@@ -162,7 +163,6 @@ a:hover { color: var(--hover); }
 }
 .landing .l-works   { top: 56%; left: 58%; font-size: clamp(30px, 4.4vw, 56px); }
 .landing .l-about   { top: 67%; left: 24%; font-size: clamp(21px, 2.6vw, 34px); }
-.landing .l-contact { bottom: 9%; left: 66%; font-size: clamp(17px, 1.8vw, 24px); }
 .landing .l-vimeo   { bottom: 4%; left: 6%; font-size: 11px; color: var(--muted); padding: 16px 4px; }
 .landing .l-vimeo:hover { color: var(--hover); }
 
