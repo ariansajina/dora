@@ -11,7 +11,7 @@ meta:
 award: "best performance overall, croatian contemporary dance awards for 2024"
 images:
   - { src: /assets/img/striptease-1.jpg, alt: "Dora Brkarić and Iva Katarinčić on all fours on a warm-lit stage, faces close to the floor", caption: "photo © Vid Redža" }
-  - { src: /assets/img/striptease-2.jpg, alt: "Two performers in the dark on straw, one lighting the other with a phone torch", caption: "Vox Feminae, Galerija Miroslav Kraljević, 2024 — photo © [photographer]" }
+  - { src: /assets/img/striptease-2.jpg, alt: "A performer bent forward over straw in the dark, lit from one side", caption: "photo © Udruga Metamedij" }
 lead: >-
   Starting from their Istrian upbringing — its mythology, symbols and rituals —
   Brkarić and Katarinčić strip away layers of identity imposed on the female body.
@@ -37,6 +37,8 @@ shown:
 links:
   - { label: "antisezona", url: "https://antisezona.space/en/performances/s-t-r-i-p-t-e-a-s-e/" }
   - { label: "vox feminae", url: "https://voxfeminae.net/festival/vff-2024/s-t-r-i-p-t-e-a-s-e/" }
+  - { label: "glas istre (2023)", url: "https://www.glasistre.hr/kazaliste/2023/09/04/u-domu-hrvatskih-branitelja-pulska-umjetnica-dora-brkaric-predstavit-ce-autorsku-plesnu-izvedbu-882374" }
+  - { label: "metamedij", url: "https://metamedia.hr/novomedijski-kultivator-radionica-instant-kompozicije-s-dorom-brkaric/" }
   - { label: "solo video (vimeo)", url: "https://vimeo.com/502722251" }
   - { label: "award (upuh)", url: "https://upuh.hr/dodijeljene-nagrade-strukovnih-udruga-suvremenog-plesa-republike-hrvatske-za-2024-godinu/" }
 ---

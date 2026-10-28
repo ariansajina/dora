@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 footer_offset: 71%
 footer_gap: 140
-portrait: { src: /assets/img/portrait-1.jpg, caption: "photo © [photographer]" }
+portrait: { src: /assets/img/portrait-1.jpg }
 facts:
   - { k: born, v: "Pula, 1996" }
   - { k: studied, v: "ADU Zagreb · Uniarts Helsinki · SNDO Amsterdam · Blank film school" }
@@ -12,9 +12,11 @@ facts:
   - { k: curating, v: "Improspekcije 2024, 2025" }
   - { k: residencies, v: "Life Long Burning, Budapest 2026 · Jelsa Art Biennial 2023" }
   - { k: award, v: "Best Performance Overall, 2024 (UPUH & UPPU PULS)" }
+  - { k: shortlist, v: "Zlatna lubenica young artist award, finalist 2020" }
 elsewhere:
   - { label: "vimeo ↗", url: "https://vimeo.com/user95667145" }
   - { label: "zpa ↗", url: "https://www.zagrebackiplesniansambl.hr/hr/tim/dora-brkaric.html" }
+  - { label: "kulturpunkt ↗", url: "https://kulturpunkt.hr/tag/dora_brkaric/" }
   - { label: "[contact email]", url: "mailto:[CONTACT EMAIL]" }
 ---
 <h1 class="vh">About Dora Brkarić</h1>
