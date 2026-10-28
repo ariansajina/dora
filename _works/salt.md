@@ -1,5 +1,8 @@
 ---
 layout: work
+# Further sources (not shown on the page; little detail):
+# - SNDO1 festival, June 2021: https://www.atd.ahk.nl/en/news-and-events/news-and-events/events/event/2021/6/17/sndo1-festival/
+# - SNDO2 Spring Sunwet festival, April 2022: https://www.atd.ahk.nl/en/news-and-events/news-and-events/events/event/2022/4/14/sndo2-spring-sunwet-festival/
 title: S A L T
 title_lines: ["S A L T"]
 spaced: true
