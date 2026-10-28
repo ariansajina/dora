@@ -18,8 +18,7 @@ performing:
   - { year: "2020", title: "Found Choreography", by: "collective / Antisezona", url: "https://antisezona.wordpress.com/online-live/found-choreography-online-dance-performance/" }
 
 curating:
-  - { year: "2025", text: "Improspekcije 19, “PoslijeSvijet”, artistic-curatorial team" }
-  - { year: "2024", text: "Improspekcije “&ruže”, programming & production" }
-  - { year: "2024", text: "instant composition workshop for Gimnazija Pula, Galerija Novo (Metamedij)" }
-  - { year: "2023", text: "“Pipci, pokrovi, zasloni, ljubavi”, workshop with Elena Apostolovski, MSU Zagreb" }
-  - { year: "—", text: "“Echo / Jeka”, training at ZPC" }
+  - { year: "2025", text: "Improspekcije 19, “PoslijeSvijet”, artistic-curatorial team", url: "https://poslijesvijet.objectofdance.com/kontakt.html" }
+  - { year: "2024", text: "Improspekcije “&ruže”, programming & production", url: "https://improspekcije.com/improspekcije2023-2/" }
+  - { year: "2024", text: "instant composition workshop for Gimnazija Pula, Galerija Novo (Metamedij)", url: "https://metamedia.hr/novomedijski-kultivator-radionica-instant-kompozicije-s-dorom-brkaric/" }
+  - { year: "2023", text: "“Pipci, pokrovi, zasloni, ljubavi”, workshop with Elena Apostolovski, MSU Zagreb", url: "https://improspekcije.com/improspekcije2023/" }
