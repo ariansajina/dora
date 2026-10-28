@@ -3,6 +3,7 @@ layout: work
 title: Life is GREJP
 title_lines: ["Life is", "GREJP"]
 slug: life-is-grejp
+vimeo: "400361276"
 meta:
   - "2018–20 · audio-visual installation with a performance character"
   - "artists: Dora Brkarić, Boris Barukčić"

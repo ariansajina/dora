@@ -35,6 +35,12 @@ own_footer: true
 </div>
 {% endif %}
 
+{% if page.vimeo %}
+<div class="video off x9 mt-160">
+  <iframe src="https://player.vimeo.com/video/{{ page.vimeo }}?dnt=1&amp;title=0&amp;byline=0&amp;portrait=0" title="{{ page.title }} — video" loading="lazy" allow="fullscreen; picture-in-picture" allowfullscreen></iframe>
+</div>
+{% endif %}
+
 {% if page.lead %}
 <p class="lead off x23 mt-140" style="max-width: 560px">{{ page.lead }}</p>
 {% endif %}

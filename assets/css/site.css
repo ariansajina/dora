@@ -266,6 +266,9 @@ a:hover { color: var(--hover); }
 .images .img-a { flex: 0 1 58%; min-width: 180px; }
 .images .img-b { flex: 0 1 22%; min-width: 180px; margin-top: 260px; }
 
+.video { width: 72%; max-width: 1100px; }
+.video iframe { display: block; width: 100%; aspect-ratio: 16 / 9; height: auto; border: 0; background: var(--ph-2); }
+
 .lead {
   font-size: clamp(20px, 2.2vw, 28px);
   line-height: 1.35;

@@ -3,6 +3,7 @@ layout: work
 title: Striptease (film)
 title_lines: ["Striptease", "(film)"]
 slug: striptease-film
+vimeo: "502722251"
 meta:
   - "2020 · short film · 6′"
   - "concept, performance, camera: Dora Brkarić"
