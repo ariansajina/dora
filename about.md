@@ -14,6 +14,7 @@ facts:
   - { k: award, v: "Best Performance Overall, 2024 (UPUH & UPPU PULS)" }
   - { k: shortlist, v: "Zlatna lubenica young artist award, finalist 2020" }
 elsewhere:
+  - { label: "instagram ↗", url: "https://www.instagram.com/dorabrkaric/" }
   - { label: "vimeo ↗", url: "https://vimeo.com/user95667145" }
   - { label: "zpa ↗", url: "https://www.zagrebackiplesniansambl.hr/hr/tim/dora-brkaric.html" }
   - { label: "kulturpunkt ↗", url: "https://kulturpunkt.hr/tag/dora_brkaric/" }
