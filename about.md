@@ -25,7 +25,7 @@ elsewhere:
 {% include placeholder.html src=page.portrait.src ratio="2 / 3" tone=1 caption=page.portrait.caption alt="Portrait of Dora Brkarić" class="portrait off x9" %}
 <div class="bio" markdown="1">
 
-Dora Brkarić (b. 1996, Pula) is a contemporary dance artist and choreographer working in [Zagreb and Istria]. She studied contemporary dance at the Academy of Dramatic Art in Zagreb and continued her training in choreography at Uniarts Helsinki and SNDO Amsterdam.
+Dora Brkarić (b. 1996, Pula) is a contemporary dance artist and choreographer working in Zagreb and Istria. She studied contemporary dance at the Academy of Dramatic Art in Zagreb and continued her training in choreography at Uniarts Helsinki and SNDO Amsterdam.
 
 Her work strips back identity, looks at what is repressed and how present a body can be — and often leaves the theatre for galleries, video and film. [S T R I P T E A S E]({{ '/works/striptease/' | relative_url }}), made with Iva Katarinčić, won Best Performance Overall at the Croatian contemporary dance awards for 2024.
 
