@@ -17,7 +17,7 @@ lead: >-
   old age, a newcomer and a returnee, a surplus in a metal incubator.
 credits:
   - { name: "Anja Mergeduš", role: "co-author" }
-supported: "Life Long Burning, co-funded by the European Union"
+supported: "Life Long Burning, funded by the European Union"
 links:
   - { label: "life long burning", url: "https://www.lifelongburning.eu/artistic-exchange-residencies/dora-brkaric-anja-mergedus" }
 ---

@@ -22,7 +22,8 @@ credits:
   - { name: "Jasmin Mahmić FIUME", role: "music" }
   - { name: "Mia Miletić", role: "costumes" }
   - { name: "Toni Modrušan", role: "light" }
-  - { name: "[SET DESIGN — confirm per version]", role: "" }
+  - { name: "Anja Mergeduš", role: "set design" }
+  - { name: "Adam Szekeres", role: "set design (2022–23)" }
   - { name: "Kristijan Žgaljardić", role: "historian" }
 supported: "supported by Metamedij, Ministry of Culture and Media, Istrian County, ZARO, Dr. INAT, INK Pula, Pogon"
 shown:

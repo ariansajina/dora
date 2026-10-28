@@ -25,7 +25,7 @@ credits:
 supported: "supported by the Ministry of Culture and Media of the Republic of Croatia, City of Zagreb"
 shown:
   - { date: "10.07.2020", venue: "Garaža Kamba, Ilica 37, Zagreb" }
-  - { date: "12.2018", venue: "Noć performansa, Ganz nove Perforacije, Filodrammatica, Rijeka" }
+  - { date: "15.12.2018", venue: "Noć performansa, Ganz nove Perforacije, Filodrammatica, Rijeka" }
 links:
   - { label: "garaža kamba", url: "https://garazakamba.com/life-is-grejp/" }
   - { label: "prostor plus", url: "https://www.prostorplus.hr/produkcija/ganz-nove-perforacije-i-noc-performansa-u-rijeci-2019" }

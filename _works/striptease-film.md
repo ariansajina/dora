@@ -10,7 +10,7 @@ meta:
   - "Marsovo polje, Pula"
 lead: >-
   The solo video, filmed at Marsovo polje in Pula, from which the staged duet
-  S T R I P T E A S E grew. In 2024 it was shown as a video installation in
+  S T R I P T E A S E grew. In 2024 it was shown as part of an installation in
   Meanwhile, in the Glossy Interface at Galerija Novo.
 shown:
   - { date: "2024", venue: "Galerija Novo, Pula — Meanwhile, in the Glossy Interface" }

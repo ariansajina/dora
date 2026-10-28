@@ -10,7 +10,7 @@ facts:
   - { k: studied, v: "ADU Zagreb · Uniarts Helsinki · SNDO Amsterdam · Blank film school" }
   - { k: company, v: "Zagrebački plesni ansambl" }
   - { k: curating, v: "Improspekcije 2024, 2025" }
-  - { k: residencies, v: "Life Long Burning, Budapest 2026 · Jelsa Art Biennial 2023" }
+  - { k: residencies, v: "Life Long Burning artistic exchange, 2026 · Jelsa Art Biennial 2023" }
   - { k: award, v: "Best Performance Overall, 2024 (UPUH & UPPU PULS)" }
   - { k: shortlist, v: "Zlatna lubenica young artist award, finalist 2020" }
 elsewhere:
