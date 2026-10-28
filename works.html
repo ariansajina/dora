@@ -23,7 +23,7 @@ footer_gap: 160
   <div class="perf-row">
     <span class="year">{{ w.year | default: '[YEAR]' }}</span>
     <span class="title">{% if w.url %}<a href="{{ w.url }}">{{ w.title }}</a>{% else %}{{ w.title }}{% endif %}</span>
-    <span class="by">{{ w.by }}</span>
+    <span class="by">{{ w.by }}{% if w.trailer %} · <a href="{{ w.trailer }}">trailer ↗</a>{% endif %}</span>
   </div>
   {%- endfor %}
 </div>
