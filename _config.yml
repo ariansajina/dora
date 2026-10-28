@@ -7,7 +7,6 @@ theme: null       # no Minima/Primer styling or layouts
 markdown: kramdown
 permalink: pretty
 contact_email: "dorabrkaric1811@gmail.com"
-vimeo: https://vimeo.com/user95667145
 collections:
   works:
     output: true

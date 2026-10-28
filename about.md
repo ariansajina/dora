@@ -49,7 +49,7 @@ As a performer she has worked with Matej Kejžar, Simone Aughterlony & Saša Bo�
   </ul>
 </section>
 
-<section class="elsewhere off x4 mt-40">
+<section class="elsewhere off x4 mt-120">
   <h2 class="sublabel">contact</h2>
   <ul>
     <li><a href="mailto:{{ site.contact_email }}">email</a></li>

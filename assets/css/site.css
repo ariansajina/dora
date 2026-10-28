@@ -163,8 +163,6 @@ a:hover { color: var(--hover); }
 }
 .landing .l-works   { top: 56%; left: 58%; font-size: clamp(30px, 4.4vw, 56px); }
 .landing .l-about   { top: 67%; left: 24%; font-size: clamp(21px, 2.6vw, 34px); }
-.landing .l-vimeo   { bottom: 4%; left: 6%; font-size: 11px; color: var(--muted); padding: 16px 4px; }
-.landing .l-vimeo:hover { color: var(--hover); }
 
 /* ================= works index ================= */
 .own-row {
