@@ -5,7 +5,7 @@ permalink: /works/
 footer_offset: 4%
 footer_gap: 160
 ---
-<h1 class="label off x61 mt-120">works (her own)</h1>
+<h1 class="label off x61 mt-120">works</h1>
 <div class="own off x9 mt-38" style="max-width: 980px">
   {%- for w in site.data.works.own %}
   {%- if w.page %}{% capture href %}{{ '/works/' | append: w.page | append: '/' | relative_url }}{% endcapture %}{% else %}{% assign href = '#' %}{% endif %}
@@ -17,12 +17,12 @@ footer_gap: 160
   {%- endfor %}
 </div>
 
-<h2 class="label off x23 mt-210">performing (for others)</h2>
+<h2 class="label off x23 mt-210">performing</h2>
 <div class="perf off x23 mt-30" style="max-width: 820px">
   {%- for w in site.data.works.performing %}
   <div class="perf-row">
     <span class="year">{{ w.year | default: '[YEAR]' }}</span>
-    <span class="title">{{ w.title }}</span>
+    <span class="title">{% if w.url %}<a href="{{ w.url }}">{{ w.title }}</a>{% else %}{{ w.title }}{% endif %}</span>
     <span class="by">{{ w.by }}</span>
   </div>
   {%- endfor %}
