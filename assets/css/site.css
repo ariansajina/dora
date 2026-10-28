@@ -210,7 +210,7 @@ a:hover { color: var(--hover); }
   font-size: 13px;
   line-height: 1.5;
 }
-.perf-row .year { flex: 0 0 48px; color: var(--muted); }
+.perf-row .year { flex: 0 0 60px; color: var(--muted); }
 .perf-row .title {
   flex: 1 1 260px;
   font-family: var(--sans);
