@@ -8,19 +8,21 @@ meta:
   - "Dora Brkarić"
   - "4th Festival menstruacije — Politike brige, Rijeka"
 lead: >-
-  A performance about the time that comes from the body and its cycles, set
-  against social patterns of productivity and linear measured time. Over a year
-  Brkarić collected her own menstrual blood, following the rhythm of her cycle;
-  a canvas painted with menstrual blood and red paint stays behind as the
-  material trace of the performance. The work questions regimes of efficiency
-  and a body geared towards function, and is a tribute to the vulva, vagina,
-  ovaries, uterus, menstruation and the gut — experiences and parts of the body
-  that are often repressed or stigmatised, here put at the centre of visibility
-  and care.
+  Wanting to know what time really is, Brkarić steps out of the social constructs
+  written into calendars, obligations and constant performing. Time is not
+  measured but felt through her own menstrual cycle: for a year she collects her
+  menstruation and follows a cycle that opens up a different duration, knowledge
+  and orientation. The performance tries to dismantle the time imposed on us by
+  every "must", by the pressures that push the body towards function,
+  availability and usefulness — and is an ode to the vulva, vagina, ovaries,
+  uterus, menstruation and the gut, which here can finally be lit, be visible and
+  breathe. A canvas painted with menstrual blood and red paint stays behind as
+  the material trace of the performance.
 supported: "Festival menstruacije, organised by Pariter"
 shown:
   - { date: "12.07.2026", venue: "Galerija SKC, Rijeka — closing of the 4th Festival menstruacije" }
   - { date: "12.–18.07.2026", venue: "Čekaonice, group exhibition, Galerija SKC, Rijeka (curated by Ana Ptičar, Petra Radić, Nora Pulić)" }
 links:
+  - { label: "pariter (festival menstruacije)", url: "https://pariter.hr/pussy-its-time-for-you-to-breathe-pussy/" }
   - { label: "fiuman", url: "https://www.fiuman.hr/zavrsio-4-festival-menstruacije-u-rijeci-uz-performans-umjetnice-koja-je-prikupljala-menstrualnu-krv/" }
 ---
