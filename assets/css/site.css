@@ -310,7 +310,6 @@ a:hover { color: var(--hover); }
   font-family: var(--mono);
   font-size: 12px;
 }
-.pager .pager-next { margin-left: 9%; }
 
 /* ================= about ================= */
 .about-row {

@@ -96,7 +96,13 @@ own_footer: true
   <a href="{{ '/works/' | append: prev.page | append: '/' | relative_url }}">← previous: {{ prev.title }}</a>
   {%- endif %}
   {%- if next %}
-  <a class="pager-next" href="{{ '/works/' | append: next.page | append: '/' | relative_url }}">next → {{ next.title }}</a>
+  {%- assign skew = nil -%}
+  {%- if prev -%}
+    {%- comment -%} mono type, so ch is one character: start next halfway along the previous link {%- endcomment -%}
+    {%- assign prev_label = '← previous: ' | append: prev.title -%}
+    {%- assign skew = prev_label.size | divided_by: 2 -%}
+  {%- endif %}
+  <a class="pager-next" href="{{ '/works/' | append: next.page | append: '/' | relative_url }}"{% if skew %} style="margin-left: min({{ skew }}ch, 40%)"{% endif %}>next → {{ next.title }}</a>
   {%- endif %}
 </nav>
 {% include footer.html offset="4%" gap=40 %}
