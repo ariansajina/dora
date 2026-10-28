@@ -149,7 +149,7 @@ a:hover { color: var(--hover); }
 }
 .landing .name {
   top: 9%; left: 6%; right: 0;
-  font-size: clamp(76px, 17vw, 250px);
+  font-size: clamp(76px, min(17vw, 24vh), 250px); /* height cap keeps the name clear of the links on short laptop screens */
   line-height: 0.84;
   letter-spacing: -0.02em;
 }
@@ -349,6 +349,7 @@ a:hover { color: var(--hover); }
 @media (max-width: 720px) {
   .off { margin-left: 0 !important; width: auto !important; max-width: 100% !important; }
   .nav { margin-left: 0 !important; }
+  .images .img-a { flex-basis: 100%; }
   .images .img-b { margin-top: 70px; margin-left: 38%; }
   .bio { margin-top: 0; }
   .work-title .indent { margin-left: 23%; } /* 31% would orphan the last letter at 360–420px */
