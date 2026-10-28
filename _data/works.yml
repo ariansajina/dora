@@ -18,9 +18,9 @@ performing:
   - { year: "2020", title: "Found Choreography", by: "collective / Antisezona", url: "https://antisezona.wordpress.com/online-live/found-choreography-online-dance-performance/" }
 
 curating:
-  - { year: "2025", text: "PoslijeSvijet / AfterWorld, artistic-curatorial team", url: "https://poslijesvijet.objectofdance.com/kontakt.html" }
-  - { year: "2024", text: "Improspekcije “&ruže”, programming & production", url: "https://improspekcije.com/improspekcije2023-2/" }
-  - { year: "2024", text: "“ja se skrivam, sakrit se ne mogu”, moderating an instant collective piece by five young artists, Improspekcije, MSU Gorgona", url: "https://improspekcije.com/improspekcije2023-2/" }
-  - { year: "2024", text: "instant composition workshop for Gimnazija Pula, Galerija Novo (Metamedij)", url: "https://metamedia.hr/novomedijski-kultivator-radionica-instant-kompozicije-s-dorom-brkaric/" }
-  - { year: "2023", text: "“Dijeljenja autorskih metodologija”, sharing artistic methods, Improspekcije, MSU Zagreb", url: "https://improspekcije.com/improspekcije2023/" }
-  - { year: "2023", text: "“Pipci, pokrovi, zasloni, ljubavi”, workshop with Elena Apostolovski, MSU Zagreb", url: "https://improspekcije.com/improspekcije2023/" }
+  - { year: "2025", title: "PoslijeSvijet / AfterWorld", text: "artistic-curatorial team", url: "https://poslijesvijet.objectofdance.com/kontakt.html" }
+  - { year: "2024", title: "Improspekcije “&ruže”", text: "programming & production", url: "https://improspekcije.com/improspekcije2023-2/" }
+  - { year: "2024", title: "“ja se skrivam, sakrit se ne mogu”", text: "moderating an instant collective piece by five young artists, Improspekcije, MSU Gorgona", url: "https://improspekcije.com/improspekcije2023-2/" }
+  - { year: "2024", title: "instant composition workshop", text: "Gimnazija Pula students, Galerija Novo (Metamedij)", url: "https://metamedia.hr/novomedijski-kultivator-radionica-instant-kompozicije-s-dorom-brkaric/" }
+  - { year: "2023", title: "“Dijeljenja autorskih metodologija”", text: "sharing artistic methods, Improspekcije, MSU Zagreb", url: "https://improspekcije.com/improspekcije2023/" }
+  - { year: "2023", title: "“Pipci, pokrovi, zasloni, ljubavi”", text: "workshop with Elena Apostolovski, MSU Zagreb", url: "https://improspekcije.com/improspekcije2023/" }
