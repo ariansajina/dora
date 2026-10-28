@@ -39,6 +39,6 @@ links:
   - { label: "vox feminae", url: "https://voxfeminae.net/festival/vff-2024/s-t-r-i-p-t-e-a-s-e/" }
   - { label: "glas istre (2023)", url: "https://www.glasistre.hr/kazaliste/2023/09/04/u-domu-hrvatskih-branitelja-pulska-umjetnica-dora-brkaric-predstavit-ce-autorsku-plesnu-izvedbu-882374" }
   - { label: "metamedij", url: "https://metamedia.hr/novomedijski-kultivator-radionica-instant-kompozicije-s-dorom-brkaric/" }
-  - { label: "solo video (vimeo)", url: "https://vimeo.com/502722251" }
   - { label: "award (upuh)", url: "https://upuh.hr/dodijeljene-nagrade-strukovnih-udruga-suvremenog-plesa-republike-hrvatske-za-2024-godinu/" }
+  - { label: "solo video (vimeo)", url: "https://vimeo.com/502722251" }
 ---

@@ -9,8 +9,6 @@ meta:
   - "2021 · dance-music performance"
   - "choreography: Dora Brkarić"
   - "made at SNDO, Amsterdam"
-images:
-  - { src: null, ratio: "4 / 3", tone: 1, caption: "[photo: S A L T, SNDO 2021]" }
 lead: >-
   Tears, sweat and sea. A dance-music performance about the inner noise of a
   person's thoughts and states, trying to show every disturbance we try to cover

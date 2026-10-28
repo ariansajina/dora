@@ -28,6 +28,6 @@ shown:
   - { date: "12.2018", venue: "Noć performansa, Ganz nove Perforacije, Filodrammatica, Rijeka" }
 links:
   - { label: "garaža kamba", url: "https://garazakamba.com/life-is-grejp/" }
-  - { label: "trailer (vimeo)", url: "https://vimeo.com/400361276" }
   - { label: "prostor plus", url: "https://www.prostorplus.hr/produkcija/ganz-nove-perforacije-i-noc-performansa-u-rijeci-2019" }
+  - { label: "trailer (vimeo)", url: "https://vimeo.com/400361276" }
 ---
