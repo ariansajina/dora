@@ -12,9 +12,10 @@ facts:
   # source: https://www.zagrebackiplesniansambl.hr/hr/tim/dora-brkaric.html
   # source: https://metamedia.hr/novomedijski-kultivator-radionica-instant-kompozicije-s-dorom-brkaric/
   - { k: born, v: "Pula, 1996" }
+  # source: https://radio.rojc.eu/kultura/intenzivna-radionica-plesnog-studija-ink/ (former participant of Plesni studio INK, 20.07.2022)
   # source: https://www.zagrebackiplesniansambl.hr/hr/tim/dora-brkaric.html (ADU, Uniarts, SNDO)
   # source: https://www.cd-cc.si/en/culture/theatre-and-dance/std-spending-time-dancing (Blank film school)
-  - { k: studied, v: "ADU Zagreb · Uniarts Helsinki · SNDO Amsterdam · Blank film school" }
+  - { k: studied, v: "Plesni studio INK, Pula · ADU Zagreb · Uniarts Helsinki · SNDO Amsterdam · Blank film school" }
   # source: https://www.zagrebackiplesniansambl.hr/hr/tim/dora-brkaric.html
   - { k: company, v: "Zagrebački plesni ansambl" }
   # source: https://improspekcije.com/improspekcije2023-2/ (2024, programming-curatorial team)
@@ -34,6 +35,7 @@ elsewhere:
   - { label: "vimeo ↗", url: "https://vimeo.com/user95667145" }
   - { label: "zpa ↗", url: "https://www.zagrebackiplesniansambl.hr/hr/tim/dora-brkaric.html" }
   - { label: "kulturpunkt ↗", url: "https://kulturpunkt.hr/tag/dora_brkaric/" }
+  - { label: "radio rojc interview, 2022 ↗", url: "https://radio.rojc.eu/kultura/intenzivna-radionica-plesnog-studija-ink/" }
 ---
 <h1 class="vh">About Dora Brkarić</h1>
 

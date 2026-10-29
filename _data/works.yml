@@ -7,6 +7,11 @@ own:
   - { year: "2021", sort: 2021.5, title: "S A L T", spaced: true, kind: "dance-music performance · SNDO Amsterdam", page: salt }
   - { year: "2020", sort: 2020, title: "Striptease (film)", kind: "short film · 6′", page: striptease-film }
   - { year: "2018–20", sort: 2018, title: "Life is GREJP", kind: "audio-visual installation / performance", page: life-is-grejp }
+  # source: https://vimeo.com/398974009 (uploaded 19.03.2020)
+  - { year: "[2019]", sort: 2019, title: "HOTDOG", kind: "experimental film · 4′", page: hotdog }
+  # source: https://vimeo.com/516864192 (uploaded 25.02.2021)
+  - { year: null, sort: 0, title: "Magician Stefano", kind: "solo · [Monoplay]", page: magician-stefano }
+  - { year: null, sort: 0, title: "Which Football Team Won a Basketball Competition", kind: "dance piece", page: which-football-team }
 
 performing:
   # source: https://vimeo.com/1199728317 (original research 2021, 2025 cast)
