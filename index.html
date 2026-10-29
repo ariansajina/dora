@@ -4,6 +4,7 @@ layout: landing
 <p class="tagline">dancer<br>choreographer</p>
 <h1 class="name"><span>dora</span><span>brkarić</span></h1>
 <a class="l-works" href="{{ '/works/' | relative_url }}">works</a>
-{%- comment -%} the same link again, right below: repetition as composition. Hidden from screen readers and the tab order so "works" is only announced once. {%- endcomment %}
+{%- comment -%} each link again, right below: repetition as composition. The copies are hidden from screen readers and the tab order so each link is only announced once. {%- endcomment %}
 <a class="l-works l-works-again" href="{{ '/works/' | relative_url }}" aria-hidden="true" tabindex="-1">works</a>
 <a class="l-about" href="{{ '/about/' | relative_url }}">about</a>
+<a class="l-about l-about-again" href="{{ '/about/' | relative_url }}" aria-hidden="true" tabindex="-1">about</a>

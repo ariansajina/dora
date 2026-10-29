@@ -168,6 +168,7 @@ a:hover { color: var(--hover); }
 .landing .l-works   { top: 56%; left: 58%; font-size: clamp(30px, 4.4vw, 56px); }
 .landing .l-works-again { top: calc(56% + 1.2em + 24px); } /* one link height lower: line-height + padding */
 .landing .l-about   { top: 67%; left: 24%; font-size: clamp(21px, 2.6vw, 34px); }
+.landing .l-about-again { top: calc(67% + 1.2em + 24px); }
 
 /* ================= works index ================= */
 .own-row {
