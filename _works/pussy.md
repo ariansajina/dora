@@ -24,5 +24,4 @@ shown:
   - { date: "12.–18.07.2026", venue: "Čekaonice, group exhibition, Galerija SKC, Rijeka (curated by Ana Ptičar, Petra Radić, Nora Pulić)" }
 links:
   - { label: "pariter (festival menstruacije)", url: "https://pariter.hr/pussy-its-time-for-you-to-breathe-pussy/" }
-  - { label: "fiuman", url: "https://www.fiuman.hr/zavrsio-4-festival-menstruacije-u-rijeci-uz-performans-umjetnice-koja-je-prikupljala-menstrualnu-krv/" }
 ---
