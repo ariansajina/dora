@@ -8,16 +8,19 @@ title_lines: ["S A L T"]
 spaced: true
 slug: salt
 vimeo: "668255166"
+# source: https://vimeo.com/668255166 ("my first baby choreo", made in SNDO1)
 meta:
   - "2021 · dance-music performance"
   - "choreography: Dora Brkarić"
   - "made at SNDO, Amsterdam"
+# source: https://vimeo.com/668255166
 lead: >-
   Tears, sweat and sea. A dance-music performance about the inner noise of a
   person's thoughts and states, trying to show every disturbance we try to cover
   up. Through exhausting the body — voice included — and the linear space of a
   monotonous everyday, sweat and tears cleanse and transform the performers,
   the sound and the air of the performance itself.
+# source: https://vimeo.com/668255166
 credits:
   - { name: "Sasu Korom", role: "performance" }
   - { name: "Billy Morgan", role: "performance" }

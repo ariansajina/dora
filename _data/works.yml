@@ -9,18 +9,28 @@ own:
   - { year: "2018–20", sort: 2018, title: "Life is GREJP", kind: "audio-visual installation / performance", page: life-is-grejp }
 
 performing:
+  # source: https://vimeo.com/1199728317 (original research 2021, 2025 cast)
+  # source: https://www.teatromunicipaldoporto.pt/en/programa/sancha-meca-castro-the-ruin-is-a-tail/ (national premiere 2–3.10.2026)
   - { year: "2021–26", title: "The ruin is a tail", by: "Sancha Meca Castro / Teatro Municipal do Porto & Instável", url: "https://www.teatromunicipaldoporto.pt/en/programa/sancha-meca-castro-the-ruin-is-a-tail/", trailer: "https://vimeo.com/1199728317" }
   - { year: "2025", title: "Petricore", by: "Igor x Moreno / Zagrebački plesni ansambl", url: "https://www.zagrebackiplesniansambl.hr/hr/predstava/petricore.html" }
   - { year: "2024", title: "Never Again", by: "Matea Bilosnić / ZPA & ZKM", url: "https://www.zagrebackiplesniansambl.hr/hr/predstava/never-again.html" }
+  # source: https://zagrebackiplesnicentar.hr/10533/ (25.09.2024: premiered earlier that year)
+  # source: https://zagrebackiplesnicentar.hr/audicija-selfiemorphia/ (ZPC residency programme 2024)
   - { year: "2024", title: "Selfiemorphia", by: "Marin Lemić / ON/A & ZPC", url: "https://zagrebackiplesnicentar.hr/predstava/selfiemorphia/" }
   - { year: "2023", title: "AGENDA", by: "Simone Aughterlony & Saša Božić / de facto", url: "https://zagrebackiplesnicentar.hr/predstava/agenda-2/" }
   - { year: "2023", title: "Imagining Gardens", by: "Jelsa Art Biennial, Hvar", url: "https://grazia.hr/jelsa-art-biennale-performans-zamisliti-vrtove/" }
+  # source: url below (Gibanica, Cankarjev dom, 24.02.2023)
   - { year: "2023", title: "STD – Spending Time Dancing", by: "Matej Kejžar / Pekinpah", url: "https://www.cd-cc.si/en/culture/theatre-and-dance/std-spending-time-dancing" }
+  # source: url below (photos dated 31.08.2021)
   - { year: "2021", title: "Glitch", by: "Flavia Pinheiro / ICK Amsterdam", url: "https://flavia-pinheiro-site.webflow.io/trabalhos/glitch" }
+  # source: url below (live+online, 02.05.2020)
   - { year: "2020", title: "Found Choreography", by: "collective / Antisezona", url: "https://antisezona.wordpress.com/online-live/found-choreography-online-dance-performance/" }
 
 curating:
+  # source: url below (artistic-curatorial team)
+  # source: https://kulturpunkt.hr/tag/dora_brkaric/ (Improspekcije: PoslijeSvijet, 09.–19.10.2025)
   - { year: "2025", title: "PoslijeSvijet / AfterWorld", text: "artistic-curatorial team, Improspekcije 2025", url: "https://poslijesvijet.objectofdance.com/kontakt.html" }
+  # source: url below (programming-curatorial and production team)
   - { year: "2024", title: "Improspekcije “&ruže”", text: "programming, curating & production", url: "https://improspekcije.com/improspekcije2023-2/" }
   - { year: "2024", title: "“ja se skrivam, sakrit se ne mogu”", text: "moderating an instant collective piece by five young artists, Improspekcije, MSU Gorgona", url: "https://improspekcije.com/improspekcije2023-2/" }
   - { year: "2024", title: "instant composition workshop", text: "Gimnazija Pula students, Galerija Novo (Metamedij)", url: "https://metamedia.hr/novomedijski-kultivator-radionica-instant-kompozicije-s-dorom-brkaric/" }
