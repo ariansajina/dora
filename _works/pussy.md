@@ -21,7 +21,6 @@ lead: >-
 supported: "Festival menstruacije, organised by Pariter"
 shown:
   - { date: "12.07.2026", venue: "Galerija SKC, Rijeka — closing of the 4th Festival menstruacije" }
-  - { date: "12.–18.07.2026", venue: "Čekaonice, group exhibition, Galerija SKC, Rijeka (curated by Ana Ptičar, Petra Radić, Nora Pulić)" }
 links:
   - { label: "pariter (festival menstruacije)", url: "https://pariter.hr/pussy-its-time-for-you-to-breathe-pussy/" }
 ---
