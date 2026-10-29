@@ -35,7 +35,6 @@ elsewhere:
   - { label: "vimeo ↗", url: "https://vimeo.com/user95667145" }
   - { label: "zpa ↗", url: "https://www.zagrebackiplesniansambl.hr/hr/tim/dora-brkaric.html" }
   - { label: "kulturpunkt ↗", url: "https://kulturpunkt.hr/tag/dora_brkaric/" }
-  - { label: "radio rojc interview, 2022 ↗", url: "https://radio.rojc.eu/kultura/intenzivna-radionica-plesnog-studija-ink/" }
 ---
 <h1 class="vh">About Dora Brkarić</h1>
 

@@ -9,9 +9,9 @@ own:
   - { year: "2018–20", sort: 2018, title: "Life is GREJP", kind: "audio-visual installation / performance", page: life-is-grejp }
   # source: https://vimeo.com/398974009 (uploaded 19.03.2020)
   - { year: "[2019]", sort: 2019, title: "HOTDOG", kind: "experimental film · 4′", page: hotdog }
+  - { year: null, sort: 0, title: "Which Football Team Won a Basketball Competition", kind: "dance piece", page: which-football-team }
   # source: https://vimeo.com/516864192 (uploaded 25.02.2021)
   - { year: null, sort: 0, title: "Magician Stefano", kind: "solo · [Monoplay]", page: magician-stefano }
-  - { year: null, sort: 0, title: "Which Football Team Won a Basketball Competition", kind: "dance piece", page: which-football-team }
 
 performing:
   # source: https://vimeo.com/1199728317 (original research 2021, 2025 cast)
@@ -41,3 +41,5 @@ curating:
   - { year: "2024", title: "instant composition workshop", text: "Gimnazija Pula students, Galerija Novo (Metamedij)", url: "https://metamedia.hr/novomedijski-kultivator-radionica-instant-kompozicije-s-dorom-brkaric/" }
   - { year: "2023", title: "“Dijeljenja autorskih metodologija”", text: "sharing artistic methods, Improspekcije, MSU Zagreb", url: "https://improspekcije.com/improspekcije2023/" }
   - { year: "2023", title: "“Pipci, pokrovi, zasloni, ljubavi”", text: "workshop with Elena Apostolovski, MSU Zagreb", url: "https://improspekcije.com/improspekcije2023/" }
+  # source: url below (interview with Dora Brkarić and Marko Gašparević, 20.07.2022)
+  - { year: "2022", title: "radio interview", text: "on the Plesni studio INK summer workshop, Radio Rojc", url: "https://radio.rojc.eu/kultura/intenzivna-radionica-plesnog-studija-ink/" }
