@@ -12,6 +12,7 @@ meta:
   - "curated by Elena Apostolovski"
   - "Dora Brkarić: Striptease, installation"
 # source: https://www.glasistre.hr/izlozbe/2024/07/27/pretvaranje-zenskih-tijela-u-robu-u-digitalnom-okruzenju-947546 (photos Leona Teodorović)
+# files: originals from the article's photo CDN, https://cdn2.cloud-hub.eu/MediaServer/Photos/Download/503231 and /503233, resized to 1600px
 images:
   - { src: /assets/img/meanwhile-1.jpg, alt: "Clothes and phones scattered on a bed of straw in the gallery, visitors standing around it", caption: "Galerija Novo, 25.07.2024 — photo © Leona Teodorović / Glas Istre" }
   - { src: /assets/img/meanwhile-2.jpg, alt: "Opening crowd in the gallery, red floor and red plastic chairs facing a screen", caption: "opening night — photo © Leona Teodorović / Glas Istre" }
