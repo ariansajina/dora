@@ -24,10 +24,12 @@ credits:
   - { name: "Valerija Djanješić", role: "photography" }
 supported: "supported by the Ministry of Culture and Media of the Republic of Croatia, City of Zagreb"
 shown:
+  - { date: "13.–21.08.2020", venue: "Zlatna lubenica 4.0, finalists’ exhibition, SKUC, Pula (Media Mediterranea 22)" }
   - { date: "10.07.2020", venue: "Garaža Kamba, Ilica 37, Zagreb" }
   - { date: "15.12.2018", venue: "Noć performansa, Ganz nove Perforacije, Filodrammatica, Rijeka" }
 links:
   - { label: "garaža kamba", url: "https://garazakamba.com/life-is-grejp/" }
   - { label: "prostor plus", url: "https://www.prostorplus.hr/produkcija/ganz-nove-perforacije-i-noc-performansa-u-rijeci-2019" }
+  - { label: "zlatna lubenica 4.0", url: "https://metamedia.hr/odabrani-finalisti-zlatne-lubenice-4-0/" }
   - { label: "trailer (vimeo)", url: "https://vimeo.com/400361276" }
 ---
