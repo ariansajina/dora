@@ -3,6 +3,7 @@ layout: work
 title: Padian Rota
 title_lines: ["Padian", "Rota"]
 slug: padian-rota
+image: { path: /assets/img/padian-rota-1.jpg, alt: "Two performers tangled together on the floor in deep red light" } # link previews
 # source: https://www.lifelongburning.eu/artistic-exchange-residencies/dora-brkaric-anja-mergedus
 meta:
   - "2026 · process showing"

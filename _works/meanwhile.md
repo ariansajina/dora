@@ -3,6 +3,7 @@ layout: work
 title: Meanwhile, in the Glossy Interface
 title_lines: ["Meanwhile,", "in the Glossy", "Interface"]
 slug: meanwhile
+image: { path: /assets/img/meanwhile-1.jpg, alt: "Clothes and phones scattered on a bed of straw in the gallery, visitors standing around it" } # link previews
 # source: https://novogallery.net/en/exhibitions/meanwhile-in-the-glossy-interface/
 # source: https://kulturistra.hr/2024/07/izlozba-meanwhile-in-the-glossy-interface-u-galeriji-novo/
 # source: https://www.glasistre.hr/izlozbe/2024/07/27/pretvaranje-zenskih-tijela-u-robu-u-digitalnom-okruzenju-947546 (Striptease shown as an installation)

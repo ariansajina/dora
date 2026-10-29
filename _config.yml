@@ -14,4 +14,9 @@ collections:
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
+# link previews (og:image): this card unless a page sets its own `image`
+defaults:
+  - scope: { path: "" }
+    values:
+      image: { path: /assets/img/share.jpg, alt: "dora brkarić — dancer, choreographer" }
 exclude: [Gemfile, Gemfile.lock, README.md, vendor]

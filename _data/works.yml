@@ -1,5 +1,5 @@
 own:
-  - { year: "2019–", sort: 2023, title: "S T R I P T E A S E", spaced: true, kind: "duet with Iva Katarinčić · award 2024", page: striptease }
+  - { year: "2019–", sort: 2023, title: "S T R I P T E A S E", spaced: true, kind: "duet with Iva Katarinčić", award: "best performance award 2024", featured: true, page: striptease }
   - { year: "2026", sort: 2026.5, title: "Pussy, it’s time for you to breathe, Pussy", kind: "performance · Festival menstruacije, Rijeka", page: pussy }
   - { year: "2026", sort: 2026, title: "Padian Rota", kind: "with Anja Mergeduš · process showing", page: padian-rota }
   - { year: "2024", sort: 2024, title: "Meanwhile, in the Glossy Interface", kind: "group exhibition · Galerija Novo, Pula", page: meanwhile }

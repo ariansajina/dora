@@ -37,6 +37,8 @@ img { display: block; max-width: 100%; height: auto; }
 a { color: var(--accent); }
 a:hover { color: var(--hover); }
 
+.nobr { white-space: nowrap; }
+
 .vh {
   position: absolute; width: 1px; height: 1px; overflow: hidden;
   clip: rect(0 0 0 0); clip-path: inset(50%); white-space: nowrap;
@@ -88,6 +90,7 @@ a:hover { color: var(--hover); }
 
 .site-footer {
   display: block;
+  margin-top: var(--gap);
   font-family: var(--mono);
   font-size: 11px;
   color: var(--muted);
@@ -196,6 +199,10 @@ a:hover { color: var(--hover); }
   font-size: 12px;
   color: var(--muted);
 }
+.own-row .award { display: block; color: var(--accent); }
+/* the featured work stands apart above the chronological list */
+.own-row.featured { border-bottom: 1px solid var(--ink); }
+.own-row.featured + .own-row { margin-top: 56px; }
 .own-row:hover { color: var(--ink); }
 .own-row:hover .title { color: var(--accent); }
 
@@ -351,4 +358,17 @@ a:hover { color: var(--hover); }
   .images > * + * { margin-top: 50px; }
   .bio { margin-top: 0; }
   .work-title .indent { margin-left: 23%; } /* 31% would orphan the last letter at 360–420px */
+  .work-title.spaced { font-size: min(44px, 10.6vw); } /* keeps T E A S E off the right edge */
+
+  /* the big vertical gaps at about half size, so a long gap doesn't read as the end of the page */
+  .mt-90  { margin-top: 48px; }
+  .mt-110 { margin-top: 56px; }
+  .mt-120 { margin-top: 64px; }
+  .mt-140 { margin-top: 72px; }
+  .mt-160 { margin-top: 80px; }
+  .mt-180 { margin-top: 90px; }
+  .mt-200 { margin-top: 100px; }
+  .mt-210 { margin-top: 104px; }
+  .site-footer { margin-top: calc(var(--gap) / 2); }
+  .own-row.featured + .own-row { margin-top: 36px; }
 }

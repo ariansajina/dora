@@ -9,10 +9,10 @@ footer_gap: 160
 <div class="own off x9 mt-38" style="max-width: 980px">
   {%- for w in site.data.works.own %}
   {%- if w.page %}{% capture href %}{{ '/works/' | append: w.page | append: '/' | relative_url }}{% endcapture %}{% else %}{% assign href = '#' %}{% endif %}
-  <a class="own-row{% unless w.page %} no-page{% endunless %}" href="{{ href }}">
+  <a class="own-row{% if w.featured %} featured{% endif %}{% unless w.page %} no-page{% endunless %}" href="{{ href }}">
     <span class="year">{{ w.year | default: '[YEAR]' }}</span>
     <span class="title{% if w.spaced %} spaced{% endif %}">{{ w.title }}</span>
-    <span class="kind">{{ w.kind }}</span>
+    <span class="kind">{{ w.kind }}{% if w.award %}<span class="award">{{ w.award }}</span>{% endif %}</span>
   </a>
   {%- endfor %}
 </div>

@@ -4,6 +4,7 @@ title: S T R I P T E A S E
 title_lines: ["S T R I P", "T E A S E"]
 spaced: true
 slug: striptease
+image: { path: /assets/img/striptease-1.jpg, alt: "Dora Brkarić and Iva Katarinčić on all fours on a warm-lit stage, faces close to the floor" } # link previews
 # source: https://antisezona.space/en/performances/s-t-r-i-p-t-e-a-s-e/
 # source: https://improspekcije.com/improspekcije2023/
 # source: https://www.glasistre.hr/kazaliste/2023/09/04/u-domu-hrvatskih-branitelja-pulska-umjetnica-dora-brkaric-predstavit-ce-autorsku-plesnu-izvedbu-882374 (solo video 2019, KNAP 2022, duet 2023)
@@ -15,6 +16,7 @@ meta:
 award: "best performance overall, croatian contemporary dance awards for 2024"
 # source: https://antisezona.space/en/performances/s-t-r-i-p-t-e-a-s-e/ (photo Vid Redža)
 # source: https://www.glasistre.hr/kazaliste/2023/09/04/u-domu-hrvatskih-branitelja-pulska-umjetnica-dora-brkaric-predstavit-ce-autorsku-plesnu-izvedbu-882374 (photo Udruga Metamedij)
+# files: striptease-2 is the article's 2000px original, https://cdn2.cloud-hub.eu/MediaServer/Photos/Download/443953, resized to 1600px
 images:
   - { src: /assets/img/striptease-1.jpg, alt: "Dora Brkarić and Iva Katarinčić on all fours on a warm-lit stage, faces close to the floor", caption: "photo © Vid Redža" }
   - { src: /assets/img/striptease-2.jpg, alt: "A performer bent forward over straw in the dark, lit from one side", caption: "photo © Udruga Metamedij" }
