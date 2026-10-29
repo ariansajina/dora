@@ -92,9 +92,6 @@ own_footer: true
 {%- endfor %}
 {% if prev or next %}
 <nav class="pager off x4 mt-120" aria-label="other works">
-  {%- if prev %}
-  <a href="{{ '/works/' | append: prev.page | append: '/' | relative_url }}">← previous: {{ prev.title }}</a>
-  {%- endif %}
   {%- if next %}
   {%- assign skew = nil -%}
   {%- if prev -%}
@@ -103,6 +100,9 @@ own_footer: true
     {%- assign skew = prev_label.size | divided_by: 2 -%}
   {%- endif %}
   <a class="pager-next" href="{{ '/works/' | append: next.page | append: '/' | relative_url }}"{% if skew %} style="margin-left: min({{ skew }}ch, 40%)"{% endif %}>next → {{ next.title }}</a>
+  {%- endif %}
+  {%- if prev %}
+  <a href="{{ '/works/' | append: prev.page | append: '/' | relative_url }}">← previous: {{ prev.title }}</a>
   {%- endif %}
 </nav>
 {% include footer.html offset="4%" gap=40 %}
