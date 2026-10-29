@@ -231,6 +231,9 @@ a:hover { color: var(--hover); }
   font-size: 12px;
   line-height: 1.7;
 }
+/* hanging indent: "2025 · " is 7 mono characters, so wrapped lines start under the text, not the year */
+.curating li { padding-left: 7ch; text-indent: -7ch; text-wrap: pretty; }
+.curating li + li { margin-top: 6px; }
 
 /* ================= project page ================= */
 .back {
