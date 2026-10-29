@@ -23,6 +23,10 @@ credits:
   - { name: "Anja Mergeduš", role: "co-author" }
 # source: https://www.lifelongburning.eu/artistic-exchange-residencies/dora-brkaric-anja-mergedus
 supported: "Life Long Burning, funded by the European Union"
+# source: https://www.flickr.com/photos/pogon-zagreb/albums/72177720334739389 (13.3.2026, "Padian Rota: Udarac pri rođenju", Galerija Močvara / URK, photos Ive Trojanović)
+shown:
+  - { date: "13.03.2026", venue: "“Udarac pri rođenju”, Galerija Močvara, Pogon Jedinstvo, Zagreb" }
 links:
   - { label: "life long burning", url: "https://www.lifelongburning.eu/artistic-exchange-residencies/dora-brkaric-anja-mergedus" }
+  - { label: "photos (pogon, flickr)", url: "https://www.flickr.com/photos/pogon-zagreb/albums/72177720334739389" }
 ---
