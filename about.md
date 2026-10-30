@@ -23,9 +23,9 @@ facts:
   # source: https://kulturpunkt.hr/tag/dora_brkaric/ (PoslijeSvijet = Improspekcije 2025)
   - { k: curating, v: "Improspekcije 2024, 2025" }
   # source: https://www.lifelongburning.eu/artistic-exchange-residencies/dora-brkaric-anja-mergedus (no city given)
-  # source: https://scenaribnjak.com/umjetnicka-istrazivanja/ (resident artists 2026)
+  # source: https://scenaribnjak.com/umjetnicka-istrazivanja/ (Scena Ribnjak, Centar kulture Ribnjak, Zagreb: "Rezidenti/ce umjetnici/ce u 2026. godini")
   # source: https://grazia.hr/jelsa-art-biennale-performans-zamisliti-vrtove/
-  - { k: residencies, v: "Life Long Burning artistic exchange, 2026 · Scenari Bnjak, 2026 · Jelsa Art Biennial 2023" }
+  - { k: residencies, v: "Life Long Burning artistic exchange, 2026 · Scena Ribnjak, Zagreb, 2026 · Jelsa Art Biennial 2023" }
   # source: https://upuh.hr/dodijeljene-nagrade-strukovnih-udruga-suvremenog-plesa-republike-hrvatske-za-2024-godinu/
   - { k: award, v: 'Best Performance Overall 2024, <span class="nobr">S T R I P T E A S E</span> with Iva Katarinčić (UPUH & UPPU PULS)' }
   # source: https://metamedia.hr/odabrani-finalisti-zlatne-lubenice-4-0/
