@@ -47,8 +47,12 @@ supported: supported by Metamedij, Ministry of Culture and Media, Istrian County
 shown:
 - date: 25.04.2025
   venue: Zagreb Dance Centre (ZPC), World Dance Day
+- date: 18.10.2024
+  venue: Antisezona, Museum of Contemporary Art (MSU), Zagreb
+- date: 11.07.2024
+  venue: XENIA DESIGN store, Hotel Rixos, Dubrovnik (site-specific)
 - date: 02.06.2024
-  venue: Pogon Jedinstvo, Zagreb
+  venue: Pogon Jedinstvo, Velika dvorana, Zagreb — premiere
 - date: 22.05.2024
   venue: Vox Feminae, Galerija Miroslav Kraljević, Zagreb (adapted)
 - date: 31.01.2024
@@ -66,8 +70,14 @@ links:
   url: https://antisezona.space/en/performances/s-t-r-i-p-t-e-a-s-e/
 - label: improspekcije 2023
   url: https://improspekcije.com/improspekcije2023/
+- label: pogon
+  url: https://www.pogon.hr/program/dora-brkaric-s-t-r-i-p-t-e-a-s-e/
+- label: pekinpah
+  url: http://pekinpah.com/news/2024/std24-rgk9l
 - label: vox feminae
   url: https://voxfeminae.net/festival/vff-2024/s-t-r-i-p-t-e-a-s-e/
+- label: gmk
+  url: https://g-mk.hr/vijesti/dora-brkaric-s-t-r-i-p-t-e-a-s-e-epizoda-pogleda/
 - label: glas istre (2023)
   url: https://www.glasistre.hr/kazaliste/2023/09/04/u-domu-hrvatskih-branitelja-pulska-umjetnica-dora-brkaric-predstavit-ce-autorsku-plesnu-izvedbu-882374
 - label: metamedij

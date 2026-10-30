@@ -5,12 +5,12 @@ title_lines:
 - Life is
 - GREJP
 featured: false
-year: 2018–20
+year: 2019–20
 sort_year: 2019.5
 kind: audio-visual installation / performance
 vimeo: '400361276'
 meta:
-- 2018–20 · audio-visual installation with a performance character
+- 2019–20 · audio-visual installation with a performance character
 - 'artists: Dora Brkarić, Boris Barukčić'
 - 'text: Mihaela Zajec'
 images:
@@ -34,11 +34,17 @@ shown:
   venue: Zlatna lubenica 4.0, finalists’ exhibition, SKUC, Pula (Media Mediterranea 22)
 - date: 10.07.2020
   venue: Garaža Kamba, Ilica 37, Zagreb
-- date: 15.12.2018
+- date: 29.06.2019
+  venue: Noć performansa, Ganz nove Perforacije, Hala V, Tehnički muzej, Zagreb
+- date: 15.06.2019
   venue: Noć performansa, Ganz nove Perforacije, Filodrammatica, Rijeka
 links:
 - label: garaža kamba
   url: https://garazakamba.com/life-is-grejp/
+- label: noć performansa, zagreb (domino)
+  url: https://thisisadominoproject.org/noc-performansa-2019/
+- label: novi list (rijeka)
+  url: https://www.novilist.hr/ostalo/sto-donose-ganz-nove-perforacije-i-noc-performansa-u-rijeci/
 - label: prostor plus
   url: https://www.prostorplus.hr/produkcija/ganz-nove-perforacije-i-noc-performansa-u-rijeci-2019
 - label: zlatna lubenica 4.0

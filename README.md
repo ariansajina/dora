@@ -97,13 +97,13 @@ These are the sort years right now:
 | Pussy, it’s time for you to breathe, Pussy | 2026.5 |
 | Padian Rota | 2026 |
 | Meanwhile, in the Glossy Interface | 2024 |
+| Which Football Team Won a Basketball Competition | 2022 |
 | an_hum_an | 2021.5 |
 | S A L T | 2021 |
-| Striptease (film) | 2020.5 |
+| Striptease (film) | 2020 |
 | Life is GREJP | 2019.5 |
 | HOTDOG | 2019 |
-| Which Football Team Won a Basketball Competition | 0.5 |
-| Magician Stefano | 0 |
+| Magician Stefano | 2018 |
 
 ### Pinning a work
 

@@ -24,7 +24,12 @@ credits:
 - name: Gabriel de Oliveira
   role: performance
 supported: thanks to Flavia Pinheiro
+shown:
+- date: 17.–19.06.2021
+  venue: SNDO1 festival, Academy of Theatre and Dance, Amsterdam (closed to the public)
 links:
+- label: sndo1 festival (ahk)
+  url: https://www.atd.ahk.nl/en/news-and-events/news-and-events/events/event/2021/6/17/sndo1-festival/
 - label: video (vimeo)
   url: https://vimeo.com/668255166
 ---

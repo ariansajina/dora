@@ -24,6 +24,8 @@ credits:
   role: dramaturgy
 supported: produced at the Academy of Dramatic Art, Zagreb
 shown:
+- date: 26.04.2023
+  venue: Kinogibanja, Art-kino, Rijeka
 - date: '2021'
   venue: Tabor Film Festival — ADU Shorts
 - date: '2021'

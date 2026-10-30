@@ -17,7 +17,11 @@ lead: The solo video, filmed at Marsovo polje in Pula, from which the staged due
 shown:
 - date: '2024'
   venue: Galerija Novo, Pula — Meanwhile, in the Glossy Interface
+- date: 20.07.2024
+  venue: Click, Post, Play — screening and artist talk, MMSU Rijeka
 links:
+- label: mmsu
+  url: https://mmsu.hr/en/event/click-post-play/
 - label: watch (vimeo)
   url: https://vimeo.com/502722251
 ---

@@ -2,14 +2,14 @@
 layout: work
 title: HOTDOG
 featured: false
-year: '[2019]'
+year: '2019'
 sort_year: 2019
 kind: experimental film · 4′
 vimeo: '398974009'
 meta:
-- '[2019] · experimental film · 4′'
+- 2019 · experimental film · 4′
 - Dora Brkarić
-lead: '[short description]'
+lead: Brkarić’s first experimental film. [short description]
 credits:
 - name: '[credits]'
 shown:

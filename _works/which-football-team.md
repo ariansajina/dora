@@ -6,11 +6,13 @@ title_lines:
 - Won a Basketball
 - Competition
 featured: false
-sort_year: 0.5
-kind: dance piece
+year: '2022'
+sort_year: 2022
+kind: dance piece · SNDO Amsterdam
 meta:
-- '[year] · dance piece'
+- 2022 · dance piece
 - 'choreography: Dora Brkarić'
+- made at SNDO, Amsterdam
 images:
 - ratio: 4 / 3
   tone: 1
@@ -19,6 +21,9 @@ lead: '[short description]'
 credits:
 - name: '[credits]'
 shown:
-- date: '[date]'
-  venue: '[venue]'
+- date: 14.–16.04.2022
+  venue: SNDO2 Spring SUNWET festival, Academy of Theatre and Dance, Amsterdam
+links:
+- label: sndo2 festival (ahk)
+  url: https://www.atd.ahk.nl/en/news-and-events/news-and-events/events/event/2022/4/14/sndo2-spring-sunwet-festival/
 ---
