@@ -9,7 +9,7 @@
 media:
   input: assets/img
   output: /assets/img
-  extensions: [jpg, jpeg, png, webp]
+  extensions: [jpg, jpeg, png, webp, heic, heif]
   rename: safe
 
 settings:
@@ -81,7 +81,7 @@ content:
         type: string
       - name: images
         label: Photos
-        description: Shown one per row, alternating left and right. Big photos are shrunk automatically after saving.
+        description: Shown one per row, alternating left and right. Big photos are shrunk, and iPhone (HEIC) photos turned into JPG, automatically after saving.
         type: object
         list:
           collapsible:

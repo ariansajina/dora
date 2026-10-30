@@ -1,5 +1,6 @@
 # Publishes the site after every change to main (including saves from Pages CMS).
-# Large photos are shrunk first and the smaller versions saved back to the repo.
+# Photos are prepared first (HEIC converted to JPEG, large ones shrunk) and the
+# results saved back to the repo.
 # Needs Settings → Pages → Build and deployment → Source: "GitHub Actions".
 name: Publish site
 
@@ -9,7 +10,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: write  # to save shrunk photos
+  contents: write  # to save prepared photos
   pages: write
   id-token: write
 
@@ -23,18 +24,24 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Shrink large photos
-        run: |
-          pip install --quiet pillow
-          python3 .github/scripts/shrink_photos.py assets/img
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
 
-      - name: Save shrunk photos
+      - name: Prepare photos
         run: |
-          git add assets/img
+          pip install --quiet pillow pillow-heif
+          python .github/scripts/prepare_photos.py assets/img
+
+      # the photos, and content files now pointing at converted HEIC photos
+      - name: Save prepared photos
+        run: |
+          git add -A assets/img
+          git add -u
           git diff --cached --quiet && exit 0
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git commit -m "Shrink large photos"
+          git commit -m "Prepare photos"
           git pull --rebase origin main
           git push origin HEAD:main
 

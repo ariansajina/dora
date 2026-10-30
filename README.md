@@ -134,9 +134,13 @@ reorder. Leave the photo box empty to show a grey placeholder with the caption i
   a minute after saving (to 1600 pixels on the long side, which is plenty for the site).
   Photos from a phone are also turned the right way up, and hidden camera data (including the
   GPS location of where the photo was taken) is removed.
-- Use **JPG** (or PNG / WebP). iPhone photos are sometimes **HEIC**, which most browsers can’t show
-  and the editor won’t accept. Uploading from the iPhone itself usually converts them to JPG
-  automatically; on a Mac, open the photo in Preview → File → Export → JPEG first.
+- **JPG, PNG, WebP and HEIC** (the iPhone format) all work. Most browsers can’t show HEIC, so
+  HEIC photos are **turned into JPG automatically** a minute after uploading, and the work is
+  updated to use the JPG. Until then the editor may show an empty box instead of the photo
+  (except in Safari); that’s fine.
+  After uploading a HEIC photo, **reload the editor page about a minute after saving** before you
+  change that work again, so it picks up the JPG. (If **Save** ever says the file has changed in the
+  meantime, reload the page and make your change again.)
 - Give the file a sensible name before uploading if you can, e.g. `padian-rota-3.jpg`.
 
 **Replacing a photo:** open the photo box and pick or upload a different file.
@@ -212,9 +216,13 @@ One-time steps for moving the repository to Dora’s own GitHub account.
 
 Static portfolio built with Jekyll 3 (the `github-pages` gem). No theme, no JavaScript.
 
-- **Publishing:** `.github/workflows/publish.yml` runs on every push to `main`: shrinks photos in
-  `assets/img` (`.github/scripts/shrink_photos.py`: longer side over 1600px → 1600px, EXIF orientation
-  applied, camera/GPS data removed, colour profile kept) and commits them back, then builds and deploys.
+- **Publishing:** `.github/workflows/publish.yml` runs on every push to `main`: prepares photos in
+  `assets/img` and commits the result back, then builds and deploys.
+  `.github/scripts/prepare_photos.py` converts HEIC/HEIF to JPEG (deleting the original and rewriting
+  references to it in content files; a name already taken gets `-heic`), shrinks the longer side to
+  1600px, applies EXIF orientation, strips camera/GPS data and keeps the colour profile. It’s
+  idempotent. The upload and the save that uses it arrive as separate commits, so references are
+  resolved against what’s in the folder rather than during conversion.
   `url` and `baseurl` are taken from the Pages settings at build time, so `_config.yml` doesn’t need
   changing when the repository moves or gets a custom domain (for a custom domain, set it in
   Settings → Pages).
