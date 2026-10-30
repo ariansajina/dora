@@ -1,0 +1,9 @@
+{%- comment -%}
+  Sets `ordered_works`: the works list order, shared by the works page and the
+  next/previous links on each work page. Pinned (`featured: true`) works first,
+  then the rest by `sort_year`, highest first; works without one go last.
+{%- endcomment -%}
+{%- assign by_sort = site.works | sort: "sort_year", "first" | reverse -%}
+{%- assign pinned = by_sort | where: "featured", true -%}
+{%- assign unpinned = by_sort | where_exp: "w", "w.featured != true" -%}
+{%- assign ordered_works = pinned | concat: unpinned -%}

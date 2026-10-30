@@ -1,0 +1,33 @@
+---
+layout: default
+---
+<h1 class="vh">About Dora Brkarić</h1>
+
+<div class="about-row mt-110">
+{% include placeholder.html src=page.portrait.src ratio="2 / 3" tone=1 caption=page.portrait.caption alt="Portrait of Dora Brkarić" class="portrait off x9" %}
+<div class="bio">
+{{ content }}
+</div>
+</div>
+
+<dl class="facts off x61 mt-200">
+{%- for f in page.facts %}
+  <dt>{{ f.k }}</dt><dd>{{ f.v }}</dd>
+{%- endfor %}
+</dl>
+
+<section class="elsewhere off x4 mt-180">
+  <h2 class="sublabel">elsewhere</h2>
+  <ul>
+  {%- for l in page.elsewhere %}
+    <li><a href="{{ l.url }}">{{ l.label }}</a></li>
+  {%- endfor %}
+  </ul>
+</section>
+
+<section class="elsewhere off x4 mt-60">
+  <h2 class="sublabel">contact</h2>
+  <ul>
+    <li><a href="mailto:{{ page.contact_email }}">{{ page.contact_email }}</a></li>
+  </ul>
+</section>

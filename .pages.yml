@@ -1,0 +1,281 @@
+# Pages CMS (https://app.pagescms.org): the editing forms for this site.
+# Docs: https://pagescms.org/docs/configuration/
+#
+# On save, Pages CMS rewrites the whole file from the form, dropping comments
+# (sources live in SOURCES.md instead). `merge` keeps top-level keys that aren't
+# listed here (layout, permalink, footer settings…), but inside a list only the
+# fields listed here survive, so list every field the templates use.
+
+media:
+  input: assets/img
+  output: /assets/img
+  extensions: [jpg, jpeg, png, webp, heic, heif]
+  rename: safe
+
+settings:
+  content:
+    merge: true
+
+content:
+  - name: works
+    label: Works
+    type: collection
+    path: _works
+    format: yaml-frontmatter
+    filename:
+      template: "{primary}.md"
+      field: create
+    view:
+      primary: title
+      fields: [title, year, featured]
+      sort: [sort_year, title]
+      default:
+        sort: sort_year
+        order: desc
+    fields:
+      - name: title
+        label: Title
+        type: string
+        required: true
+      - name: featured
+        label: Pin to the top of the works list
+        description: Pinned works sit above the rest of the list, set apart by a line.
+        type: boolean
+      - name: year
+        label: Year (works list)
+        description: As shown in the list, e.g. 2024, 2018–20 or 2019–.
+        type: string
+      - name: sort_year
+        label: Sort year
+        description: >-
+          Decides the order of the works list and the next/previous links on work pages:
+          highest number first. Usually the year it was made. To put a work above another
+          from the same year, add a decimal: 2026.5 comes before 2026. Leave empty to put
+          a work at the very bottom.
+        type: number
+      - name: kind
+        label: What it is (works list)
+        description: Shown next to the title in the list, e.g. “experimental film · 5′”.
+        type: string
+      - name: list_award
+        label: Award (works list)
+        description: Optional. A short red line under the entry in the list.
+        type: string
+      - name: title_lines
+        label: Title on the work page, line by line
+        description: Optional. Splits the big title over several lines, each one indented. Leave empty to keep it on one line.
+        type: string
+        list: true
+      - name: spaced
+        label: Letter-spaced title
+        description: For titles typed with spaces between the letters, like S T R I P T E A S E.
+        type: boolean
+      - name: meta
+        label: Details under the title
+        description: One line each, e.g. “2024 · group exhibition · Galerija Novo, Pula”.
+        type: string
+        list: true
+      - name: award
+        label: Award (work page)
+        description: Optional. A red line under the details.
+        type: string
+      - name: images
+        label: Photos
+        description: Shown one per row, alternating left and right. Big photos are shrunk, and iPhone (HEIC) photos turned into JPG, automatically after saving.
+        type: object
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{caption}"
+        fields:
+          - name: src
+            label: Photo
+            description: Leave empty for a grey placeholder box.
+            type: image
+          - name: alt
+            label: What the photo shows
+            description: For people who can’t see it (screen readers), e.g. “Two performers on the floor in red light”.
+            type: string
+          - name: caption
+            label: Caption
+            description: Shown under the photo, e.g. “photo © Name Surname”.
+            type: string
+          - name: ratio
+            type: string
+            hidden: true
+          - name: tone
+            type: number
+            hidden: true
+      - name: vimeo
+        label: Vimeo video number
+        description: Optional. The number at the end of the Vimeo link, e.g. 398974009 for vimeo.com/398974009.
+        type: string
+      - name: lead
+        label: Description
+        type: text
+      - name: credits
+        label: Credits
+        type: object
+        list: true
+        fields:
+          - name: name
+            label: Name
+            type: string
+          - name: role
+            label: Role
+            type: string
+      - name: supported
+        label: Supported by
+        description: Optional, e.g. “supported by Ministry of Culture and Media, City of Zagreb”.
+        type: text
+      - name: shown
+        label: Shown
+        description: Newest first.
+        type: object
+        list: true
+        fields:
+          - name: date
+            label: Date
+            description: Written as you want it shown, e.g. 13.03.2026, 25.07.–21.08.2024 or 2021.
+            type: string
+          - name: venue
+            label: Where
+            type: string
+      - name: links
+        label: Links
+        type: object
+        list: true
+        fields:
+          - name: label
+            label: Link text
+            type: string
+          - name: url
+            label: Address
+            type: string
+      - name: image
+        label: Link preview
+        description: Optional. The picture shown when this page is shared in a chat or on social media.
+        type: object
+        fields:
+          - name: path
+            label: Photo
+            type: image
+          - name: alt
+            label: What the photo shows
+            type: string
+
+  - name: lists
+    label: Performing & curating
+    type: file
+    path: _data/works.yml
+    format: yaml
+    fields:
+      - name: performing
+        label: Performing (in other artists’ work)
+        description: Shown in this order. New entries are added at the bottom; drag them into place.
+        type: object
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{year} · {title}"
+        fields:
+          - name: year
+            label: Year
+            type: string
+          - name: title
+            label: Title
+            type: string
+          - name: by
+            label: By / produced by
+            type: string
+          - name: url
+            label: Link
+            type: string
+          - name: trailer
+            label: Trailer link
+            description: Optional. Adds “trailer ↗”.
+            type: string
+      - name: curating
+        label: Curating / teaching / other
+        description: Shown in this order. New entries are added at the bottom; drag them into place.
+        type: object
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{year} · {title}"
+        fields:
+          - name: year
+            label: Year
+            type: string
+          - name: title
+            label: Title
+            description: The linked part.
+            type: string
+          - name: text
+            label: Text after the title
+            type: string
+          - name: url
+            label: Link
+            type: string
+
+  - name: about
+    label: About
+    type: file
+    path: about.md
+    format: yaml-frontmatter
+    fields:
+      - name: body
+        label: Bio
+        description: >-
+          Leave an empty line between paragraphs. Links: [text](address); to link one of
+          your works, use ../works/ and its file name, e.g. [S A L T](../works/salt/).
+          Adding {: .nobr} right after a link keeps it on one line.
+        type: text
+      - name: portrait
+        label: Portrait
+        type: object
+        fields:
+          - name: src
+            label: Photo
+            type: image
+          - name: caption
+            label: Caption
+            type: string
+      - name: facts
+        label: Facts
+        type: object
+        list: true
+        fields:
+          - name: k
+            label: Label
+            description: e.g. born, studied, award.
+            type: string
+          - name: v
+            label: Text
+            type: string
+      - name: elsewhere
+        label: Elsewhere (links)
+        type: object
+        list: true
+        fields:
+          - name: label
+            label: Link text
+            description: e.g. “instagram ↗”.
+            type: string
+          - name: url
+            label: Address
+            type: string
+      - name: contact_email
+        label: Contact email
+        type: string
+      - name: image
+        label: Link preview
+        description: The picture shown when the about page is shared.
+        type: object
+        fields:
+          - name: path
+            label: Photo
+            type: image
+          - name: alt
+            label: What the photo shows
+            type: string
