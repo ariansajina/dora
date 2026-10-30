@@ -6,7 +6,7 @@ slug: life-is-grejp
 vimeo: "400361276"
 # source: https://garazakamba.com/life-is-grejp/
 meta:
-  - "2018–20 · audio-visual installation with a performance character"
+  - "2019–20 · audio-visual installation with a performance character"
   - "artists: Dora Brkarić, Boris Barukčić"
   - "text: Mihaela Zajec"
 images:
@@ -36,10 +36,15 @@ shown:
   - { date: "13.–21.08.2020", venue: "Zlatna lubenica 4.0, finalists’ exhibition, SKUC, Pula (Media Mediterranea 22)" }
   # no source found yet for the date or address (https://garazakamba.com/life-is-grejp/ gives neither)
   - { date: "10.07.2020", venue: "Garaža Kamba, Ilica 37, Zagreb" }
-  # source: https://www.prostorplus.hr/produkcija/ganz-nove-perforacije-i-noc-performansa-u-rijeci-2019
-  - { date: "15.12.2018", venue: "Noć performansa, Ganz nove Perforacije, Filodrammatica, Rijeka" }
+  # source: https://thisisadominoproject.org/noc-performansa-2019/ (29.6.2019, 23–02h)
+  - { date: "29.06.2019", venue: "Noć performansa, Ganz nove Perforacije, Hala V, Tehnički muzej, Zagreb" }
+  # source: https://www.novilist.hr/ostalo/sto-donose-ganz-nove-perforacije-i-noc-performansa-u-rijeci/ (11.06.2019: "15. lipnja, u 21 sat")
+  # note: https://www.prostorplus.hr/produkcija/ganz-nove-perforacije-i-noc-performansa-u-rijeci-2019 lists her slot as "15.6. od 21h" under a "14./15.12.2018" header
+  - { date: "15.06.2019", venue: "Noć performansa, Ganz nove Perforacije, Filodrammatica, Rijeka" }
 links:
   - { label: "garaža kamba", url: "https://garazakamba.com/life-is-grejp/" }
+  - { label: "noć performansa, zagreb (domino)", url: "https://thisisadominoproject.org/noc-performansa-2019/" }
+  - { label: "novi list (rijeka)", url: "https://www.novilist.hr/ostalo/sto-donose-ganz-nove-perforacije-i-noc-performansa-u-rijeci/" }
   - { label: "prostor plus", url: "https://www.prostorplus.hr/produkcija/ganz-nove-perforacije-i-noc-performansa-u-rijeci-2019" }
   - { label: "zlatna lubenica 4.0", url: "https://metamedia.hr/odabrani-finalisti-zlatne-lubenice-4-0/" }
   - { label: "trailer (vimeo)", url: "https://vimeo.com/400361276" }

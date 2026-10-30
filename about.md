@@ -23,8 +23,9 @@ facts:
   # source: https://kulturpunkt.hr/tag/dora_brkaric/ (PoslijeSvijet = Improspekcije 2025)
   - { k: curating, v: "Improspekcije 2024, 2025" }
   # source: https://www.lifelongburning.eu/artistic-exchange-residencies/dora-brkaric-anja-mergedus (no city given)
+  # source: https://scenaribnjak.com/umjetnicka-istrazivanja/ (resident artists 2026)
   # source: https://grazia.hr/jelsa-art-biennale-performans-zamisliti-vrtove/
-  - { k: residencies, v: "Life Long Burning artistic exchange, 2026 · Jelsa Art Biennial 2023" }
+  - { k: residencies, v: "Life Long Burning artistic exchange, 2026 · Scenari Bnjak, 2026 · Jelsa Art Biennial 2023" }
   # source: https://upuh.hr/dodijeljene-nagrade-strukovnih-udruga-suvremenog-plesa-republike-hrvatske-za-2024-godinu/
   - { k: award, v: 'Best Performance Overall 2024, <span class="nobr">S T R I P T E A S E</span> with Iva Katarinčić (UPUH & UPPU PULS)' }
   # source: https://metamedia.hr/odabrani-finalisti-zlatne-lubenice-4-0/
@@ -54,7 +55,7 @@ Dora Brkarić (b. 1996, Pula) is a contemporary dance artist and choreographer w
 
 Her work strips back identity, looks at what is repressed and how present a body can be — and often leaves the theatre for galleries, video and film. [S T R I P T E A S E]({{ '/works/striptease/' | relative_url }}){: .nobr}, made with Iva Katarinčić, won Best Performance Overall at the Croatian contemporary dance awards for 2024.
 
-As a performer she has worked with Matej Kejžar, Simone Aughterlony & Saša Božić, Flavia Pinheiro, Marin Lemić, Matea Bilosnić and Igor x Moreno. She is a permanent member of Zagrebački plesni ansambl and co-curates Improspekcije, Zagreb's festival of improvisation.
+As a performer she has worked with Matej Kejžar, Andrea Božić, Simone Aughterlony & Saša Božić, Flavia Pinheiro, Marin Lemić, Matea Bilosnić, Igor x Moreno, Roberta Milevoj and Sancha Meca Castro. She is a permanent member of Zagrebački plesni ansambl and co-curates Improspekcije, Zagreb's festival of improvisation.
 
 </div>
 </div>

@@ -20,6 +20,9 @@ lead: >-
 # source: https://www.glasistre.hr/izlozbe/2024/07/27/pretvaranje-zenskih-tijela-u-robu-u-digitalnom-okruzenju-947546
 shown:
   - { date: "2024", venue: "Galerija Novo, Pula — Meanwhile, in the Glossy Interface" }
+  # source: https://mmsu.hr/en/event/click-post-play/ (20.07.2024, 20:00; curated by Elena Apostolovski)
+  - { date: "20.07.2024", venue: "Click, Post, Play — screening and artist talk, MMSU Rijeka" }
 links:
+  - { label: "mmsu", url: "https://mmsu.hr/en/event/click-post-play/" }
   - { label: "watch (vimeo)", url: "https://vimeo.com/502722251" }
 ---

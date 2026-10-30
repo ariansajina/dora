@@ -1,8 +1,5 @@
 ---
 layout: work
-# Further sources (not shown on the page; little detail):
-# - SNDO1 festival, June 2021: https://www.atd.ahk.nl/en/news-and-events/news-and-events/events/event/2021/6/17/sndo1-festival/
-# - SNDO2 Spring Sunwet festival, April 2022: https://www.atd.ahk.nl/en/news-and-events/news-and-events/events/event/2022/4/14/sndo2-spring-sunwet-festival/
 title: S A L T
 title_lines: ["S A L T"]
 spaced: true
@@ -27,6 +24,10 @@ credits:
   - { name: "Ciro Goudsmit", role: "performance" }
   - { name: "Gabriel de Oliveira", role: "performance" }
 supported: "thanks to Flavia Pinheiro"
+# source: https://www.atd.ahk.nl/en/news-and-events/news-and-events/events/event/2021/6/17/sndo1-festival/ (Dora Brkarić among the SNDO1 makers, 17–19 June 2021, 19:00; closed to the public under corona measures)
+shown:
+  - { date: "17.–19.06.2021", venue: "SNDO1 festival, Academy of Theatre and Dance, Amsterdam (closed to the public)" }
 links:
+  - { label: "sndo1 festival (ahk)", url: "https://www.atd.ahk.nl/en/news-and-events/news-and-events/events/event/2021/6/17/sndo1-festival/" }
   - { label: "video (vimeo)", url: "https://vimeo.com/668255166" }
 ---

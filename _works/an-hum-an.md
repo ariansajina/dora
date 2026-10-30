@@ -26,6 +26,8 @@ credits:
 supported: "produced at the Academy of Dramatic Art, Zagreb"
 # source: https://havc.hr/eng/croatian-film/croatian-film-catalogue/an-hum-an
 shown:
+  # source: https://www.art-kino.org/hr/filmovi/kinogibanja (26.04.2023, 18:00; dance-film cycle)
+  - { date: "26.04.2023", venue: "Kinogibanja, Art-kino, Rijeka" }
   - { date: "2021", venue: "Tabor Film Festival — ADU Shorts" }
   - { date: "2021", venue: "STIFF — Student International Film Festival" }
   - { date: "2021", venue: "FRKA — Film Revue of the Academy of Dramatic Art" }
