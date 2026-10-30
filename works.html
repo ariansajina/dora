@@ -7,12 +7,12 @@ footer_gap: 160
 ---
 <h1 class="label off x61 mt-120">works</h1>
 <div class="own off x9 mt-38" style="max-width: 980px">
-  {%- for w in site.data.works.own %}
-  {%- if w.page %}{% capture href %}{{ '/works/' | append: w.page | append: '/' | relative_url }}{% endcapture %}{% else %}{% assign href = '#' %}{% endif %}
-  <a class="own-row{% if w.featured %} featured{% endif %}{% unless w.page %} no-page{% endunless %}" href="{{ href }}">
+  {%- include ordered-works.html %}
+  {%- for w in ordered_works %}
+  <a class="own-row{% if w.featured %} featured{% endif %}" href="{{ w.url | relative_url }}">
     <span class="year">{{ w.year | default: '[YEAR]' }}</span>
     <span class="title{% if w.spaced %} spaced{% endif %}">{{ w.title }}</span>
-    <span class="kind">{{ w.kind }}{% if w.award %}<span class="award">{{ w.award }}</span>{% endif %}</span>
+    <span class="kind">{{ w.kind }}{% if w.list_award %}<span class="award">{{ w.list_award }}</span>{% endif %}</span>
   </a>
   {%- endfor %}
 </div>

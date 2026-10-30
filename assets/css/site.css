@@ -201,9 +201,9 @@ a:hover { color: var(--hover); }
   color: var(--muted);
 }
 .own-row .award { display: block; color: var(--accent); }
-/* the featured work stands apart above the chronological list */
+/* pinned (featured) works stand apart above the chronological list */
 .own-row.featured { border-bottom: 1px solid var(--ink); }
-.own-row.featured + .own-row { margin-top: 56px; }
+.own-row.featured + .own-row:not(.featured) { margin-top: 56px; }
 .own-row:hover { color: var(--ink); }
 .own-row:hover .title { color: var(--accent); }
 
@@ -374,5 +374,5 @@ a:hover { color: var(--hover); }
   .mt-200 { margin-top: 100px; }
   .mt-210 { margin-top: 104px; }
   .site-footer { margin-top: calc(var(--gap) / 2); }
-  .own-row.featured + .own-row { margin-top: 36px; }
+  .own-row.featured + .own-row:not(.featured) { margin-top: 36px; }
 }

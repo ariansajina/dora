@@ -81,13 +81,13 @@ own_footer: true
 
 {%- comment -%} pages in the order of the works list (newest at the top):
      next = the entry above (newer), previous = the entry below (older) {%- endcomment -%}
-{%- assign paged = site.data.works.own | where_exp: "w", "w.page" -%}
+{%- include ordered-works.html -%}
 {%- assign prev = nil -%}
 {%- assign next = nil -%}
-{%- for w in paged -%}
-  {%- if w.page == page.slug -%}
-    {%- unless forloop.first -%}{%- assign i = forloop.index0 | minus: 1 -%}{%- assign next = paged[i] -%}{%- endunless -%}
-    {%- unless forloop.last -%}{%- assign i = forloop.index0 | plus: 1 -%}{%- assign prev = paged[i] -%}{%- endunless -%}
+{%- for w in ordered_works -%}
+  {%- if w.url == page.url -%}
+    {%- unless forloop.first -%}{%- assign i = forloop.index0 | minus: 1 -%}{%- assign next = ordered_works[i] -%}{%- endunless -%}
+    {%- unless forloop.last -%}{%- assign i = forloop.index0 | plus: 1 -%}{%- assign prev = ordered_works[i] -%}{%- endunless -%}
   {%- endif -%}
 {%- endfor %}
 {% if prev or next %}
@@ -99,10 +99,10 @@ own_footer: true
     {%- assign prev_label = '← previous: ' | append: prev.title -%}
     {%- assign skew = prev_label.size | divided_by: 2 -%}
   {%- endif %}
-  <a class="pager-next" href="{{ '/works/' | append: next.page | append: '/' | relative_url }}"{% if skew %} style="margin-left: min({{ skew }}ch, 40%)"{% endif %}>next → {{ next.title }}</a>
+  <a class="pager-next" href="{{ next.url | relative_url }}"{% if skew %} style="margin-left: min({{ skew }}ch, 40%)"{% endif %}>next → {{ next.title }}</a>
   {%- endif %}
   {%- if prev %}
-  <a href="{{ '/works/' | append: prev.page | append: '/' | relative_url }}">← previous: {{ prev.title }}</a>
+  <a href="{{ prev.url | relative_url }}">← previous: {{ prev.title }}</a>
   {%- endif %}
 </nav>
 {% include footer.html offset="4%" gap=40 %}

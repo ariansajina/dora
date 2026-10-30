@@ -1,0 +1,70 @@
+# Publishes the site after every change to main (including saves from Pages CMS).
+# Large photos are shrunk first and the smaller versions saved back to the repo.
+# Needs Settings → Pages → Build and deployment → Source: "GitHub Actions".
+name: Publish site
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write  # to save shrunk photos
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Shrink large photos
+        run: |
+          pip install --quiet pillow
+          python3 .github/scripts/shrink_photos.py assets/img
+
+      - name: Save shrunk photos
+        run: |
+          git add assets/img
+          git diff --cached --quiet && exit 0
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Shrink large photos"
+          git pull --rebase origin main
+          git push origin HEAD:main
+
+      - id: pages
+        uses: actions/configure-pages@v5
+
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.3"
+          bundler-cache: true
+
+      # url and baseurl come from the repo's Pages address, so they follow a
+      # transfer to another account or a custom domain without editing _config.yml
+      - name: Build
+        run: |
+          printf 'url: "%s"\n' "${{ steps.pages.outputs.origin }}" > "$RUNNER_TEMP/pages.yml"
+          bundle exec jekyll build --config "_config.yml,$RUNNER_TEMP/pages.yml" --baseurl "${{ steps.pages.outputs.base_path }}"
+        env:
+          JEKYLL_ENV: production
+          JEKYLL_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PAGES_REPO_NWO: ${{ github.repository }}
+
+      - uses: actions/upload-pages-artifact@v3
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
