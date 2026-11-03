@@ -226,8 +226,11 @@ One-time steps for moving the repository to Dora’s own GitHub account.
 
 ## How it’s built
 
-Static portfolio built with Jekyll 3 (the `github-pages` gem). No theme, no JavaScript.
+Static portfolio built with Jekyll 4. No theme, no JavaScript.
 
+- **Dependencies:** `Gemfile` uses `~>` constraints and `Gemfile.lock` is committed, so local
+  builds and the published site use the same versions. Dependabot (`.github/dependabot.yml`)
+  opens a PR each week with gem and GitHub Actions updates.
 - **Publishing:** `.github/workflows/publish.yml` runs on every push to `main`: prepares photos in
   `assets/img` and commits the result back, then builds and deploys.
   `.github/scripts/prepare_photos.py` converts HEIC/HEIF to JPEG (deleting the original and rewriting
@@ -242,8 +245,8 @@ Static portfolio built with Jekyll 3 (the `github-pages` gem). No theme, no Java
 - **Content:**
   - Works: `_works/<name>.md`, one file per work, used for both the works list and the work page.
     `_includes/ordered-works.html` sets the order for both the list and the pager: `featured: true`
-    first, then `sort_year` descending, empty last. (The field can’t be called `sort`: in Jekyll 3
-    that name clashes with the built-in sort method and the build crashes.)
+    first, then `sort_year` descending, empty last. (The field can’t be called `sort`: in Jekyll 3,
+    which the site used before, that name clashes with the built-in sort method and the build crashes.)
   - Performing and curating lists: `_data/works.yml`.
   - About: front matter and bio in `about.md`, markup in `_layouts/about.html`.
   - A work’s `lead` and the about bio are Markdown, edited as rich text in Pages CMS (Tiptap,
