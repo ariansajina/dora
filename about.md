@@ -39,6 +39,6 @@ twitter:
 ---
 Dora Brkarić (b. 1996, Pula) is a contemporary dance artist and choreographer working in Zagreb and Istria. She studied contemporary dance at the Academy of Dramatic Art in Zagreb and continued her training in choreography at Uniarts Helsinki and SNDO Amsterdam.
 
-Her work strips back identity, looks at what is repressed and how present a body can be — and often leaves the theatre for galleries, video and film. [S T R I P T E A S E](../works/striptease/){: .nobr}, made with Iva Katarinčić, won Best Performance Overall at the Croatian contemporary dance awards for 2024.
+Her work strips back identity, looks at what is repressed and how present a body can be — and often leaves the theatre for galleries, video and film. [S T R I P T E A S E](../works/striptease/), made with Iva Katarinčić, won Best Performance Overall at the Croatian contemporary dance awards for 2024.
 
-As a performer she has worked with Matej Kejžar, Andrea Božić, Simone Aughterlony & Saša Božić, Flavia Pinheiro, Marin Lemić, Matea Bilosnić, Igor x Moreno, Roberta Milevoj and Sancha Meca Castro. She is a permanent member of Zagrebački plesni ansambl and co-curates Improspekcije, Zagreb's festival of improvisation.
+As a performer she has worked with Matej Kejžar, Andrea Božić, Simone Aughterlony, Saša Božić, Flavia Pinheiro, Marin Lemić, Matea Bilosnić, Igor x Moreno, Roberta Milevoj and Sancha Meca Castro. She is a permanent member of Zagrebački plesni ansambl and co-curates Improspekcije, a Zagreb-based initiative founded in 2007 to develop the improvisation scene in Croatia, whose year-round programme of performances, workshops and research centres on its improvisation festival, now called PoslijeSvijet.

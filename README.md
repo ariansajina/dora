@@ -57,7 +57,7 @@ The fields, top to bottom:
 | **Award (work page)** | Optional red line under the details. |
 | **Photos** | See [Photos](#photos). |
 | **Vimeo video number** | Optional. Shows the video on the page. For `https://vimeo.com/398974009` type `398974009`. |
-| **Description** | The paragraph of text on the page. |
+| **Description** | The text on the page, in large type. Formatted text, see [Formatting text](#formatting-text). |
 | **Credits** | Name + role for each person. |
 | **Supported by** | Optional line under the credits. |
 | **Shown** | Dates and places, newest first. Write the date as you want it shown: `13.03.2026`, `25.07.–21.08.2024`, `2021`. |
@@ -159,18 +159,30 @@ shown exactly in the order they have in the editor:
 
 **About** has:
 
-- **Bio**: plain text with a few simple marks:
-  - Leave an **empty line** between paragraphs.
-  - A link is written `[the text](the address)`, e.g. `[Zagrebački plesni ansambl](https://www.zagrebackiplesniansambl.hr/)`.
-  - To link to one of your works, use `../works/` and its file name:
-    `[S A L T](../works/salt/)`.
-  - `{: .nobr}` right after a link keeps that link on one line (used for S T R I P T E A S E so its
-    letters don’t break over two lines). Leave it where it is.
+- **Bio**: formatted text, see [Formatting text](#formatting-text).
 - **Portrait**: the photo and an optional caption.
 - **Facts**: label + text, e.g. `born` / `Pula, 1996`. In the award fact, `<span class="nobr">…</span>`
-  does the same job as `{: .nobr}`: keep it around a letter-spaced title.
+  keeps the letter-spaced title on one line: leave it around the title.
 - **Elsewhere (links)**: Instagram, Vimeo, etc. Add the `↗` to the link text yourself.
 - **Contact email**.
+
+### Formatting text
+
+The **Description** of each work and the **Bio** work like a word processor:
+
+- **Enter** starts a new paragraph.
+- **Select some words** and use the small toolbar that appears to make them **bold**, *italic*
+  or a **link**. For a link, paste the address, e.g. `https://www.zagrebackiplesniansambl.hr/`.
+  To link one of your own works, use `../works/` and its file name, e.g. `../works/salt/`.
+- Stick to bold, italic and links. The `/` menu also offers headings, lists and tables, but the
+  site isn’t designed for those.
+- The **Source** switch shows the same text as plain text with marks (`*italic*`, `**bold**`,
+  `[link text](address)`), which is how it’s saved. You don’t need it, but it’s handy if
+  something looks odd.
+- A letter-spaced title inside a sentence (like S T R I P T E A S E in the bio) has *no-break
+  spaces* between its letters, so it never splits over two lines. If you type a new one, use
+  ⌥ Option + Space on a Mac (or Alt + 0160 on Windows) between the letters; with normal spaces
+  it still works but may break at the end of a line.
 
 ### If something goes wrong
 
@@ -234,6 +246,9 @@ Static portfolio built with Jekyll 3 (the `github-pages` gem). No theme, no Java
     that name clashes with the built-in sort method and the build crashes.)
   - Performing and curating lists: `_data/works.yml`.
   - About: front matter and bio in `about.md`, markup in `_layouts/about.html`.
+  - A work’s `lead` and the about bio are Markdown, edited as rich text in Pages CMS (Tiptap,
+    saving Markdown). `_layouts/work.html` renders `lead` with `markdownify`. Don’t put kramdown
+    extras like `{: .class}` in them: the editor keeps them but shows them as literal text.
 - **Editor:** `.pages.yml` configures Pages CMS. When Pages CMS saves, it rewrites the whole file
   from the form: comments are dropped and, inside lists, keys not in `.pages.yml` are lost. So
   **every field a template uses must be listed there** (`settings.content.merge` keeps unknown

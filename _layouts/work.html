@@ -42,7 +42,7 @@ own_footer: true
 {% endif %}
 
 {% if page.lead %}
-<p class="lead off x23 mt-140" style="max-width: 560px">{{ page.lead }}</p>
+<div class="lead off x23 mt-140" style="max-width: 560px">{{ page.lead | markdownify }}</div>
 {% endif %}
 
 {% if page.credits or page.supported or page.shown %}

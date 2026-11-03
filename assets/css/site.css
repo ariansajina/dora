@@ -280,6 +280,7 @@ a:hover { color: var(--hover); }
   font-size: clamp(20px, 2.2vw, 28px);
   line-height: 1.35;
 }
+.lead p + p { margin-top: 0.8em; }
 
 .credits-shown {
   display: flex;

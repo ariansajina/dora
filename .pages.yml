@@ -112,7 +112,11 @@ content:
         type: string
       - name: lead
         label: Description
-        type: text
+        description: Select text to make it bold, italic or a link. Press Enter for a new paragraph.
+        type: rich-text
+        options:
+          format: markdown
+          media: false
       - name: credits
         label: Credits
         type: object
@@ -227,10 +231,12 @@ content:
       - name: body
         label: Bio
         description: >-
-          Leave an empty line between paragraphs. Links: [text](address); to link one of
-          your works, use ../works/ and its file name, e.g. [S A L T](../works/salt/).
-          Adding {: .nobr} right after a link keeps it on one line.
-        type: text
+          Select text to make it bold, italic or a link. To link one of your works, use
+          ../works/ and its file name as the address, e.g. ../works/salt/.
+        type: rich-text
+        options:
+          format: markdown
+          media: false
       - name: portrait
         label: Portrait
         type: object
