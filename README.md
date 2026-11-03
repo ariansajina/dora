@@ -1,11 +1,10 @@
 # Dora Brkarić — website
 
-The site lives at **https://&lt;github-username&gt;.github.io/dora/** and is published by GitHub Pages
+The site lives at **https://ariansajina.github.io/dora/** and is published by GitHub Pages
 from this repository. You edit it in **Pages CMS**, a free website where everything on the site is
 a form: type, upload a photo, press **Save**, and about two minutes later the change is live.
 
 - [Editing the site](#editing-the-site) — for Dora
-- [Handing the site over](#handing-the-site-over) — one-time steps when the repository changes owner
 - [How it’s built](#how-its-built) — technical notes
 
 ---
@@ -165,6 +164,7 @@ shown exactly in the order they have in the editor:
   keeps the letter-spaced title on one line: leave it around the title.
 - **Elsewhere (links)**: Instagram, Vimeo, etc. Add the `↗` to the link text yourself.
 - **Contact email**.
+- **Link preview**: optional, the picture shown when the about page is shared.
 
 ### Formatting text
 
@@ -199,31 +199,6 @@ The **Description** of each work and the **Bio** work like a word processor:
 
 ---
 
-## Handing the site over
-
-One-time steps for moving the repository to Dora’s own GitHub account.
-
-1. **Switch publishing to GitHub Actions** (if not done yet): repository **Settings → Pages →
-   Build and deployment → Source: GitHub Actions**. The workflow in
-   `.github/workflows/publish.yml` builds the site and shrinks photos; it only runs with this setting.
-   Check that **Actions** shows a green run afterwards (start one with **Actions → Publish site →
-   Run workflow** if needed).
-2. **Dora creates a GitHub account** at https://github.com/signup (free). Her username becomes part
-   of the address: `https://<username>.github.io/dora/`.
-3. **Transfer the repository:** **Settings → General → Danger Zone → Transfer ownership**, enter her
-   username. She gets an email and accepts the transfer.
-4. **After the transfer:**
-   - The old address (`https://ariansajina.github.io/dora/`) stops working; GitHub doesn’t
-     redirect Pages sites. Links already shared will need the new address.
-   - Nothing needs editing: the build takes the site address from wherever the repository lives.
-     Check **Settings → Pages** still says *GitHub Actions*, then run **Actions → Publish site →
-     Run workflow** once so the site is published under the new address.
-   - Dora follows [Opening the editor](#opening-the-editor) to install Pages CMS on her account.
-     (If you installed the Pages CMS app on your own account to try it out, remove it under
-     GitHub **Settings → Applications → Installed GitHub Apps**.)
-
----
-
 ## How it’s built
 
 Static portfolio built with Jekyll 4. No theme, no JavaScript.
@@ -231,7 +206,8 @@ Static portfolio built with Jekyll 4. No theme, no JavaScript.
 - **Dependencies:** `Gemfile` uses `~>` constraints and `Gemfile.lock` is committed, so local
   builds and the published site use the same versions. Dependabot (`.github/dependabot.yml`)
   opens a PR each week with gem and GitHub Actions updates.
-- **Publishing:** `.github/workflows/publish.yml` runs on every push to `main`: prepares photos in
+- **Publishing:** requires Settings → Pages → Build and deployment → Source: *GitHub Actions*.
+  `.github/workflows/publish.yml` runs on every push to `main` (and manually via **Run workflow**): prepares photos in
   `assets/img` and commits the result back, then builds and deploys.
   `.github/scripts/prepare_photos.py` converts HEIC/HEIF to JPEG (deleting the original and rewriting
   references to it in content files; a name already taken gets `-heic`), shrinks the longer side to
