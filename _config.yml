@@ -6,7 +6,6 @@ lang: en
 theme: null       # no Minima/Primer styling or layouts
 markdown: kramdown
 permalink: pretty
-contact_email: "dorabrkaric1811@gmail.com"
 collections:
   works:
     output: true
@@ -19,4 +18,8 @@ defaults:
   - scope: { path: "" }
     values:
       image: { path: /assets/img/share.jpg, alt: "dora brkarić — dancer, choreographer" }
-exclude: [Gemfile, Gemfile.lock, README.md, vendor]
+  # works added in Pages CMS don't set a layout
+  - scope: { path: "", type: works }
+    values:
+      layout: work
+exclude: [Gemfile, Gemfile.lock, README.md, SOURCES.md, vendor]

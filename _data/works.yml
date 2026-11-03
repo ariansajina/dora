@@ -1,72 +1,107 @@
-own:
-  - { year: "2019–", sort: 2023, title: "S T R I P T E A S E", spaced: true, kind: "duet with Iva Katarinčić", award: "best performance award 2024", featured: true, page: striptease }
-  - { year: "2026", sort: 2026.5, title: "Pussy, it’s time for you to breathe, Pussy", kind: "performance · Festival menstruacije, Rijeka", page: pussy }
-  - { year: "2026", sort: 2026, title: "Padian Rota", kind: "with Anja Mergeduš · process showing", page: padian-rota }
-  - { year: "2024", sort: 2024, title: "Meanwhile, in the Glossy Interface", kind: "group exhibition · Galerija Novo, Pula", page: meanwhile }
-  # source: https://www.atd.ahk.nl/en/news-and-events/news-and-events/events/event/2022/4/14/sndo2-spring-sunwet-festival/ (SNDO2 maker, untitled there; Dora: this is that piece)
-  - { year: "2022", sort: 2022, title: "Which Football Team Won a Basketball Competition", kind: "dance piece · SNDO Amsterdam", page: which-football-team }
-  - { year: "2021", sort: 2021, title: "an_hum_an", kind: "experimental film · 5′", page: an-hum-an }
-  - { year: "2021", sort: 2021.5, title: "S A L T", spaced: true, kind: "dance-music performance · SNDO Amsterdam", page: salt }
-  - { year: "2020", sort: 2020, title: "Striptease (film)", kind: "short film · 6′", page: striptease-film }
-  # source: https://www.novilist.hr/ostalo/sto-donose-ganz-nove-perforacije-i-noc-performansa-u-rijeci/ (first shown 15.06.2019)
-  - { year: "2019–20", sort: 2019.5, title: "Life is GREJP", kind: "audio-visual installation / performance", page: life-is-grejp }
-  # source: https://vimeo.com/user95667145 (profile bio: "In 2019 she made her first experimental film HOTDOG")
-  - { year: "2019", sort: 2019, title: "HOTDOG", kind: "experimental film · 4′", page: hotdog }
-  # source: https://kritikaz.com/vijesti/kritike/38786/Ve%C4%87-deset-godina-solo (Monoplay 2018, ADU pre-programme)
-  # source: https://thisisadominoproject.org/noc-performansa-2019/ (bio: "Mađioničar Stefano" shown at Monoplay)
-  - { year: "2018", sort: 2018, title: "Magician Stefano", kind: "solo · Monoplay, Zadar", page: magician-stefano }
-
 performing:
-  # source: https://vimeo.com/1199728317 (original research 2021, 2025 cast)
-  # source: https://www.teatromunicipaldoporto.pt/en/programa/sancha-meca-castro-the-ruin-is-a-tail/ (national premiere 2–3.10.2026)
-  # source: https://kulturpunkt.hr/najava/festival/antisezona-ovom-tlu-je-svejedno-padamo-li-ili-ustajemo/ (also at Antisezona, Zagreb, 17.06.–13.07.2026)
-  - { year: "2021–26", title: "The ruin is a tail", by: "Sancha Meca Castro / Teatro Municipal do Porto & Instável", url: "https://www.teatromunicipaldoporto.pt/en/programa/sancha-meca-castro-the-ruin-is-a-tail/", trailer: "https://vimeo.com/1199728317" }
-  # source: url below (premiere 23–24.05.2026, TALA PLE(j)S, Zagreb; with Ema Crnić, Adriana Josipović, Lara Kapeloto, Margareta Sinković)
-  - { year: "2026", title: "A MORE MUORE", by: "Roberta Milevoj / TALA PLE(j)S", url: "https://www.glasistre.hr/kazaliste/2026/05/14/tijelo-kao-more-roberta-milevoj-premijerno-u-zagrebu-1068950" }
-  - { year: "2025", title: "Petricore", by: "Igor x Moreno / Zagrebački plesni ansambl", url: "https://www.zagrebackiplesniansambl.hr/hr/predstava/petricore.html" }
-  # source: url below (17th Monoplay, Zadar, August 2025; with Nataša Kustura, camera and editing Vladimir Miketa)
-  - { year: "2025", title: "Plesna kartografija – reimaginacija okoliša", by: "Matea Bilosnić · dance film / Monoplay, Zadar", url: "https://ezadar.net.hr/kultura/3537194/17-monoplay-u-zadru-donio-umjetnost-na-ulice-i-trgove-grada/" }
-  - { year: "2024", title: "Never Again", by: "Matea Bilosnić / ZPA & ZKM", url: "https://www.zagrebackiplesniansambl.hr/hr/predstava/never-again.html" }
-  # source: https://zagrebackiplesnicentar.hr/10533/ (25.09.2024: premiered earlier that year)
-  # source: https://zagrebackiplesnicentar.hr/audicija-selfiemorphia/ (ZPC residency programme 2024)
-  - { year: "2024", title: "Selfiemorphia", by: "Marin Lemić / ON/A & ZPC", url: "https://zagrebackiplesnicentar.hr/predstava/selfiemorphia/" }
-  - { year: "2023", title: "AGENDA", by: "Simone Aughterlony & Saša Božić / de facto", url: "https://zagrebackiplesnicentar.hr/predstava/agenda-2/" }
-  - { year: "2023", title: "Imagining Gardens", by: "Jelsa Art Biennial, Hvar", url: "https://grazia.hr/jelsa-art-biennale-performans-zamisliti-vrtove/" }
-  # source: url below (premiere 14.09.2022)
-  # source: https://www.cd-cc.si/en/culture/theatre-and-dance/std-spending-time-dancing (Gibanica, Cankarjev dom, 24.02.2023)
-  - { year: "2022", title: "STD – Spending Time Dancing", by: "Matej Kejžar / Pekinpah", url: "https://matejkejzar.com/STD-Spending-Time-Dancing" }
-  # source: url below (photos dated 31.08.2021; SNDO students with the Conservatorium of Amsterdam; Overpark, Oosterpark, Central Station)
-  - { year: "2021", title: "Glitch", by: "Flavia Pinheiro / SNDO & Conservatorium of Amsterdam", url: "https://flavia-pinheiro-site.webflow.io/trabalhos/glitch" }
-  # source: url below (performers Igor Zenzerović and Dora Brkarić; Noć performansa 2021)
-  # source: https://nova.rs/kultura/performer-ivan-zenzerovic-da-li-cu-u-beogradu-izdrzati-zagrljaj-od-24-sata/ (Zagreb staging 02.07.2021, with Dora Brkarić)
-  - { year: "2021", title: "Studija jednog zagrljaja", by: "Igor Zenzerović · 24-hour performance / Noć performansa, Zagreb", url: "https://thisisadominoproject.org/igor-zenzerovic-studija-jednog-zagrljaja/" }
-  # source: url below (live+online, 02.05.2020)
-  - { year: "2020", title: "Found Choreography", by: "collective / Antisezona", url: "https://antisezona.wordpress.com/online-live/found-choreography-online-dance-performance/" }
-  # source: url below (ADU 3rd-year exam production, F22, 05.–06.04.2019)
-  - { year: "2019", title: "Kilometar vune", by: "Andrea Božić / ADU exam production, Zagreb", url: "https://www.teatar.hr/230337/javne-ispitne-izvedbe-odsjeka-plesa/" }
-  # source: url below (ADU exam production, F22, 25.–27.01.2018)
-  - { year: "2018", title: "House Bolero", by: "Matej Kejžar / ADU exam production, Zagreb", url: "https://kulturpunkt.hr/najava/izvedba/ples-kao-ekspresija-i-modalitet-kretanja/" }
-  # source: url below (premiere 29.04.2015; role: Lou)
-  - { year: "2015", title: "Zatvaramo!", by: "Andrea Gotovina / Istrian National Theatre, Pula", url: "https://www.teatar.hr/180429/zatvaramo/" }
-
+- year: 2021–26
+  title: The ruin is a tail
+  by: Sancha Meca Castro / Teatro Municipal do Porto & Instável
+  url: https://www.teatromunicipaldoporto.pt/en/programa/sancha-meca-castro-the-ruin-is-a-tail/
+  trailer: https://vimeo.com/1199728317
+- year: '2026'
+  title: A MORE MUORE
+  by: Roberta Milevoj / TALA PLE(j)S
+  url: https://www.glasistre.hr/kazaliste/2026/05/14/tijelo-kao-more-roberta-milevoj-premijerno-u-zagrebu-1068950
+- year: '2025'
+  title: Petricore
+  by: Igor x Moreno / Zagrebački plesni ansambl
+  url: https://www.zagrebackiplesniansambl.hr/hr/predstava/petricore.html
+- year: '2025'
+  title: Plesna kartografija – reimaginacija okoliša
+  by: Matea Bilosnić · dance film / Monoplay, Zadar
+  url: https://ezadar.net.hr/kultura/3537194/17-monoplay-u-zadru-donio-umjetnost-na-ulice-i-trgove-grada/
+- year: '2024'
+  title: Never Again
+  by: Matea Bilosnić / ZPA & ZKM
+  url: https://www.zagrebackiplesniansambl.hr/hr/predstava/never-again.html
+- year: '2024'
+  title: Selfiemorphia
+  by: Marin Lemić / ON/A & ZPC
+  url: https://zagrebackiplesnicentar.hr/predstava/selfiemorphia/
+- year: '2023'
+  title: AGENDA
+  by: Simone Aughterlony & Saša Božić / de facto
+  url: https://zagrebackiplesnicentar.hr/predstava/agenda-2/
+- year: '2023'
+  title: Imagining Gardens
+  by: Jelsa Art Biennial, Hvar
+  url: https://grazia.hr/jelsa-art-biennale-performans-zamisliti-vrtove/
+- year: '2022'
+  title: STD – Spending Time Dancing
+  by: Matej Kejžar / Pekinpah
+  url: https://matejkejzar.com/STD-Spending-Time-Dancing
+- year: '2021'
+  title: Glitch
+  by: Flavia Pinheiro / SNDO & Conservatorium of Amsterdam
+  url: https://flavia-pinheiro-site.webflow.io/trabalhos/glitch
+- year: '2021'
+  title: Studija jednog zagrljaja
+  by: Igor Zenzerović · 24-hour performance / Noć performansa, Zagreb
+  url: https://thisisadominoproject.org/igor-zenzerovic-studija-jednog-zagrljaja/
+- year: '2020'
+  title: Found Choreography
+  by: collective / Antisezona
+  url: https://antisezona.wordpress.com/online-live/found-choreography-online-dance-performance/
+- year: '2019'
+  title: Kilometar vune
+  by: Andrea Božić / ADU exam production, Zagreb
+  url: https://www.teatar.hr/230337/javne-ispitne-izvedbe-odsjeka-plesa/
+- year: '2018'
+  title: House Bolero
+  by: Matej Kejžar / ADU exam production, Zagreb
+  url: https://kulturpunkt.hr/najava/izvedba/ples-kao-ekspresija-i-modalitet-kretanja/
+- year: '2015'
+  title: Zatvaramo!
+  by: Andrea Gotovina / Istrian National Theatre, Pula
+  url: https://www.teatar.hr/180429/zatvaramo/
 curating:
-  # source: url below (artistic-curatorial team)
-  # source: https://kulturpunkt.hr/tag/dora_brkaric/ (Improspekcije: PoslijeSvijet, 09.–19.10.2025)
-  # source: https://kulturpunkt.hr/kritika/sljokice-pokazuju-put/ (concept by Tea Kantoci, Dora Brkarić and Marko Gutić Mižimakov)
-  - { year: "2025", title: "PoslijeSvijet / AfterWorld", text: "artistic-curatorial team with Tea Kantoci and Marko Gutić Mižimakov, Improspekcije 2025", url: "https://poslijesvijet.objectofdance.com/kontakt.html" }
-  # source: url below (23.11.2025, 18:00; curated by Ema Crnić)
-  - { year: "2025", title: "Okolišanje", text: "her dance films in a screening of short dance films and audiovisual installations, TALA PLEjS, Zagreb", url: "https://kulturpunkt.hr/najava/film/okolisanje/" }
-  # source: url below (accompanying exhibition of Cherry Pop Festival, 21.–23.11.2024; with Andrea Knezović and Marianna Nardini)
-  - { year: "2024", title: "Karnalne potrage", text: "group exhibition, Cherry Pop Festival, Zagreb", url: "https://kulturpunkt.hr/najava/festival/cherry-pop-festival-2/" }
-  # source: url below (programming-curatorial and production team)
-  - { year: "2024", title: "Improspekcije “&ruže”", text: "programming, curating & production", url: "https://improspekcije.com/improspekcije2023-2/" }
-  - { year: "2024", title: "“ja se skrivam, sakrit se ne mogu”", text: "moderating an instant collective piece by five young artists, Improspekcije, MSU Gorgona", url: "https://improspekcije.com/improspekcije2023-2/" }
-  # source: url below (page published 02.05.2024; focus, martial-arts warm-up, improvised mini performances)
-  - { year: "2024", title: "ECHO", text: "training class, Zagreb Dance Centre (ZPC)", url: "https://zagrebackiplesnicentar.hr/en/aktivnosti/echo-dora-brkaric/" }
-  - { year: "2024", title: "instant composition workshop", text: "Gimnazija Pula students, Galerija Novo (Metamedij)", url: "https://metamedia.hr/novomedijski-kultivator-radionica-instant-kompozicije-s-dorom-brkaric/" }
-  - { year: "2023", title: "“Dijeljenja autorskih metodologija”", text: "sharing artistic methods, Improspekcije, MSU Zagreb", url: "https://improspekcije.com/improspekcije2023/" }
-  - { year: "2023", title: "“Pipci, pokrovi, zasloni, ljubavi”", text: "workshop with Elena Apostolovski, MSU Zagreb", url: "https://improspekcije.com/improspekcije2023/" }
-  # source: url below (her thoughts are among those of "friends from abroad" woven into the piece)
-  - { year: "2022", title: "Strahovi malih razlika", text: "her thoughts, as one of the “friends from abroad”, in Ana Javoran & Viktorija Bubalo’s piece, Antisezona, MSU", url: "https://kulturpunkt.hr/kritika/ples-s-onu-stranu-zrcala/" }
-  # source: url below (interview with Dora Brkarić and Marko Gašparević, 20.07.2022)
-  - { year: "2022", title: "radio interview", text: "on the Plesni studio INK summer workshop, Radio Rojc", url: "https://radio.rojc.eu/kultura/intenzivna-radionica-plesnog-studija-ink/" }
+- year: '2025'
+  title: PoslijeSvijet / AfterWorld
+  text: artistic-curatorial team with Tea Kantoci and Marko Gutić Mižimakov, Improspekcije 2025
+  url: https://poslijesvijet.objectofdance.com/kontakt.html
+- year: '2025'
+  title: Okolišanje
+  text: her dance films in a screening of short dance films and audiovisual installations, TALA PLEjS, Zagreb
+  url: https://kulturpunkt.hr/najava/film/okolisanje/
+- year: '2024'
+  title: Karnalne potrage
+  text: group exhibition, Cherry Pop Festival, Zagreb
+  url: https://kulturpunkt.hr/najava/festival/cherry-pop-festival-2/
+- year: '2024'
+  title: Improspekcije “&ruže”
+  text: programming, curating & production
+  url: https://improspekcije.com/improspekcije2023-2/
+- year: '2024'
+  title: “ja se skrivam, sakrit se ne mogu”
+  text: moderating an instant collective piece by five young artists, Improspekcije, MSU Gorgona
+  url: https://improspekcije.com/improspekcije2023-2/
+- year: '2024'
+  title: ECHO
+  text: training class, Zagreb Dance Centre (ZPC)
+  url: https://zagrebackiplesnicentar.hr/en/aktivnosti/echo-dora-brkaric/
+- year: '2024'
+  title: instant composition workshop
+  text: Gimnazija Pula students, Galerija Novo (Metamedij)
+  url: https://metamedia.hr/novomedijski-kultivator-radionica-instant-kompozicije-s-dorom-brkaric/
+- year: '2023'
+  title: “Dijeljenja autorskih metodologija”
+  text: sharing artistic methods, Improspekcije, MSU Zagreb
+  url: https://improspekcije.com/improspekcije2023/
+- year: '2023'
+  title: “Pipci, pokrovi, zasloni, ljubavi”
+  text: workshop with Elena Apostolovski, MSU Zagreb
+  url: https://improspekcije.com/improspekcije2023/
+- year: '2022'
+  title: Strahovi malih razlika
+  text: her thoughts, as one of the “friends from abroad”, in Ana Javoran & Viktorija Bubalo’s piece, Antisezona, MSU
+  url: https://kulturpunkt.hr/kritika/ples-s-onu-stranu-zrcala/
+- year: '2022'
+  title: radio interview
+  text: on the Plesni studio INK summer workshop, Radio Rojc
+  url: https://radio.rojc.eu/kultura/intenzivna-radionica-plesnog-studija-ink/

@@ -1,32 +1,38 @@
 ---
 layout: work
 title: Padian Rota
-title_lines: ["Padian", "Rota"]
-slug: padian-rota
-image: { path: /assets/img/padian-rota-1.jpg, alt: "Two performers tangled together on the floor in deep red light" } # link previews
-# source: https://www.lifelongburning.eu/artistic-exchange-residencies/dora-brkaric-anja-mergedus
+title_lines:
+- Padian
+- Rota
+featured: false
+year: '2026'
+sort_year: 2026
+kind: with Anja Mergeduš · process showing
+image:
+  path: /assets/img/padian-rota-1.jpg
+  alt: Two performers tangled together on the floor in deep red light
 meta:
-  - "2026 · process showing"
-  - "Dora Brkarić & Anja Mergeduš"
-  - "Life Long Burning artistic exchange residency"
-# source: https://www.lifelongburning.eu/artistic-exchange-residencies/dora-brkaric-anja-mergedus (photo files credited to Ive Trojanović)
+- 2026 · process showing
+- Dora Brkarić & Anja Mergeduš
+- Life Long Burning artistic exchange residency
 images:
-  - { src: /assets/img/padian-rota-1.jpg, alt: "Two performers tangled together on the floor in deep red light", caption: "photo © Ive Trojanović" }
-  - { src: /assets/img/padian-rota-2.jpg, alt: "Two blurred faces close to the camera in red light", caption: "photo © Ive Trojanović" }
-# source: https://www.lifelongburning.eu/artistic-exchange-residencies/dora-brkaric-anja-mergedus
-lead: >-
-  Padian Rota cannot be understood through classical categories: the entity is a
-  living experiment on the limits of power, freedom and chaos, using contradiction
-  and provocation as its main tools of (self)knowledge. A doe who dreams of your
-  old age, a newcomer and a returnee, a surplus in a metal incubator.
+- src: /assets/img/padian-rota-1.jpg
+  alt: Two performers tangled together on the floor in deep red light
+  caption: photo © Ive Trojanović
+- src: /assets/img/padian-rota-2.jpg
+  alt: Two blurred faces close to the camera in red light
+  caption: photo © Ive Trojanović
+lead: 'Padian Rota cannot be understood through classical categories: the entity is a living experiment on the limits of power, freedom and chaos, using contradiction and provocation as its main tools of (self)knowledge. A doe who dreams of your old age, a newcomer and a returnee, a surplus in a metal incubator.'
 credits:
-  - { name: "Anja Mergeduš", role: "co-author" }
-# source: https://www.lifelongburning.eu/artistic-exchange-residencies/dora-brkaric-anja-mergedus
-supported: "Life Long Burning, funded by the European Union"
-# source: https://www.flickr.com/photos/pogon-zagreb/albums/72177720334739389 (13.3.2026, "Padian Rota: Udarac pri rođenju", Galerija Močvara / URK, photos Ive Trojanović)
+- name: Anja Mergeduš
+  role: co-author
+supported: Life Long Burning, funded by the European Union
 shown:
-  - { date: "13.03.2026", venue: "“Udarac pri rođenju”, Galerija Močvara, Pogon Jedinstvo, Zagreb" }
+- date: 13.03.2026
+  venue: “Udarac pri rođenju”, Galerija Močvara, Pogon Jedinstvo, Zagreb
 links:
-  - { label: "life long burning", url: "https://www.lifelongburning.eu/artistic-exchange-residencies/dora-brkaric-anja-mergedus" }
-  - { label: "photos (pogon, flickr)", url: "https://www.flickr.com/photos/pogon-zagreb/albums/72177720334739389" }
+- label: life long burning
+  url: https://www.lifelongburning.eu/artistic-exchange-residencies/dora-brkaric-anja-mergedus
+- label: photos (pogon, flickr)
+  url: https://www.flickr.com/photos/pogon-zagreb/albums/72177720334739389
 ---
